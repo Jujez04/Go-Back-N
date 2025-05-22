@@ -5,7 +5,7 @@ import random
 
 SERVER_ADDRESS = ('localhost', 12000)
 WINDOW_SIZE = 3
-LOSS_PROBABILITY = 0.1 # Probabilità di perdita del pacchetto
+LOSS_PROBABILITY = 0.9 # Probabilità di perdita del pacchetto
 
 # Creazione del socket UDP
 sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
@@ -36,13 +36,16 @@ class Timer:
 def send_pack(pack_num):
     global timer
     message = f'Pacchetto {pack_num}'
-    if random.random() < LOSS_PROBABILITY:  # Simulazione della perdita del pacchetto
+    # Simulazione perdita del pacchetto
+    if random.random() < LOSS_PROBABILITY:
         print(f"[SIMULAZIONE PERDITA] Pacchetto {pack_num} perso")
-        return
-    print(f"Invio {message}")
-    sent = sock.sendto(message.encode(), SERVER_ADDRESS)
-    if base == pack_num:
+    else:
+        print(f"Invio {message}")
+        sock.sendto(message.encode(), SERVER_ADDRESS)
+    # Se sto inviando (o tentando di inviare) il pacchetto alla base, avvia sempre il timer
+    if pack_num == base:
         timer.start_timer()
+
 
 def receive_ack():
     global timer, base
@@ -73,8 +76,7 @@ def handle_timeout():
             if timer.has_reached_timeout():
                 print("Timeout raggiunto! Ritrasmetto da", base, "a", next_id_pack - 1)
                 for i in range(base, next_id_pack):
-                    message = f'Pacchetto {i}'
-                    sock.sendto(message.encode(), SERVER_ADDRESS)
+                    send_pack(i)
                 timer.start_timer()
 
 
@@ -92,7 +94,8 @@ try:
     while base < PACK_TO_SEND:
         with lock:
             if next_id_pack < base + WINDOW_SIZE and next_id_pack < PACK_TO_SEND:
-                send_pack(next_id_pack)
+                send_pack(next_id_pack) 
+                # Problema qua nella ritrasmissione dei pacchetti
                 next_id_pack += 1
         time.sleep(0.5)
 finally:
