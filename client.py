@@ -5,7 +5,7 @@ import random
 
 SERVER_ADDRESS = ('localhost', 12000)
 WINDOW_SIZE = 3
-LOSS_PROBABILITY = 0.1 # Probabilità di perdita del pacchetto
+LOSS_PROBABILITY = 0.7 # Probabilità di perdita del pacchetto
 
 # Creazione del socket UDP
 sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
@@ -32,14 +32,23 @@ class Timer:
     def stop_timer(self):
         self.start_time = None
 
+stats = {
+    'inviati': 0,
+    'persi': 0,
+    'ritrasmessi': 0,
+    'ack_ricevuti': 0
+}
+
 # Definisco i metodi per inviare pacchetti, ricevere ACK e gestire il timeout
 def send_pack(pack_num):
     global timer
     message = f'Pacchetto {pack_num}'
     # Simulazione perdita del pacchetto
     if random.random() < LOSS_PROBABILITY:
+        stats['persi'] += 1
         print(f"[SIMULAZIONE PERDITA] Pacchetto {pack_num} perso")
     else:
+        stats['inviati'] += 1
         print(f"Invio {message}")
         sock.sendto(message.encode(), SERVER_ADDRESS)
     if pack_num == base:
@@ -56,6 +65,7 @@ def receive_ack():
             ack_message, ack_num = msg.split()
             ack_num = int(ack_num)
             if ack_message == 'ACK':
+                stats['ack_ricevuti'] += 1
                 print(f"Ricevuto {ack_num}")
                 with lock:
                     if ack_num >= base:
@@ -75,6 +85,7 @@ def handle_timeout():
             if timer.has_reached_timeout():
                 print("Timeout raggiunto! Ritrasmetto da", base, "a", next_id_pack - 1)
                 for i in range(base, next_id_pack):
+                    stats['ritrasmessi'] += 1
                     send_pack(i)
                 timer.start_timer()
 
@@ -98,5 +109,8 @@ try:
         time.sleep(0.5)
 finally:
     time.sleep(1)
-    print('closing socket')
+    print('Chiusura del socket')
     sock.close()
+    print("\nStatistiche finali:")
+    for k, v in stats.items():
+        print(f"{k}: {v}")
