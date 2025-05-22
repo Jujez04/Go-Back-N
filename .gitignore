@@ -1,0 +1,35 @@
+# Ignore Gradle project-specific cache directory
+**/.gradle/*
+
+# Ignore Gradle build output directory
+**/build/*
+**/bin/*
+
+# Ignore VS Code folder
+**/.vscode/*
+
+.~lock*
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.dvi
+*.fls
+*.fdb_latexmk
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.lof
+*.lot
+*.lol
+*.ilg
+*.ind
+*.idx
+*.gz
+*.pdf
