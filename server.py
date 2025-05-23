@@ -19,9 +19,8 @@ try:
         if last_seq_printed != expected_seq_num:
             print(f'\nIn attesa del pacchetto {expected_seq_num}...')
             last_seq_printed = expected_seq_num
-
+        # Ricezione del pacchetto
         data, address = sock.recvfrom(4096)
-        print('received %s bytes from %s' % (len(data), address))
         msg = data.decode('utf8')
         seq_num = int(msg.split()[1])
 
@@ -34,8 +33,8 @@ try:
             print(f'Inviato {message} a {address}')
             expected_seq_num += 1
         else:
-            ack_to_resend = expected_seq_num - 1 if expected_seq_num > 0 else 0
-            message = f'Failed_ACK {ack_to_resend}'
+            ack_to_resend = expected_seq_num - 1
+            message = f'ACK {ack_to_resend}'
             sent = sock.sendto(message.encode(), address)
             print("\nACK failed\n")
             print(f'Pacchetto inatteso (seq: {seq_num}), reinviato {message} a {address}')
