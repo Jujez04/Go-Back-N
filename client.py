@@ -6,7 +6,7 @@ import logging
 
 SERVER_ADDRESS = ('localhost', 12000)
 WINDOW_SIZE = 3
-LOSS_PROBABILITY = 0.6 # Probabilità di perdita del pacchetto
+LOSS_PROBABILITY = 0.3 # Probabilità di perdita del pacchetto
 
 # Creazione del socket UDP
 sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
@@ -111,8 +111,10 @@ timer = Timer(TIMEOUT)
 lock = threading.Lock()
 
 # Avvia i thread
-threading.Thread(target=receive_ack, daemon=True).start()
-threading.Thread(target=handle_timeout, daemon=True).start()
+receive_thread = threading.Thread(target=receive_ack, daemon=True)
+handle_thread = threading.Thread(target=handle_timeout, daemon=True)
+receive_thread.start()
+handle_thread.start()
 try:
     while base < PACK_TO_SEND:
         with lock:
@@ -122,6 +124,10 @@ try:
         time.sleep(0.5)
 finally:
     time.sleep(1)
+    if receive_thread.is_alive():
+        receive_thread.join()
+    if handle_thread.is_alive():
+        handle_thread.join()
     logging.info('Chiusura del socket')
     sock.close()
     logging.info("Statistiche finali:")

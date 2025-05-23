@@ -7,8 +7,6 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{ifluatex}
-\usepackage{booktabs}
-\usepackage{siunitx}
 \usepackage{tabularx}
 \usepackage{array}
 \ifluatex
@@ -39,7 +37,7 @@
 \tableofcontents
 
 \chapter{Introduzione}
-Il protocollo Go-Back-N ARQ è un protocollo di comunicazione che permette 
+Il protocollo Go-Back-N ARQ è un protocollo di comunicazione che lavora a livello del data link e permette 
 la trasmissione di pacchetti dati in modo affidabile per mezzo di una 
 implementazione particolare della tecnica della finestra scorrevole. 
 
@@ -50,7 +48,7 @@ conto di:
 \begin{itemize}
   \item \textit{numerazione dei pacchetti}: la numerazione sequenziale permette l'identificazione e il riordino
   \item \textit{timer di ritrasmissione}: se non viene trasmesso il pacchetto giusto ci dovrà essere un timer che ritrasmetterà dall'ultimo arrivato
-  \item \textit{finestra di trasmissione del mittente}: il mittente dovrà mandare più di un pacchetto.
+  \item \textit{finestra di trasmissione del mittente}: il mittente dovrà mandare più di un pacchetto per mezzo di una finestra di lunghezza predefinita.
 \end{itemize}
 Ai fini pratici analizzeremo anche quando la dimensione della finestra di trasmissione è 1,
 portando l'implementazione del Go-Back-N a simulare il comportamento del protocollo Stop-and-Wait.
@@ -62,7 +60,7 @@ a TCP. In particolare, il tipo di protocollo è \textit{connectionless},
 quindi non stabilisce una connessione tra mittente e destinatario, ma invia i pacchetti
 senza alcun tipo di garanzia su ordine e integrità.
 \newline
-In generale vogliamo fare in modo che:
+Gli obiettivi specifici dell’implementazione includono:
 \begin{itemize}
   \item Ci siano due entità \textbf{server} e \textbf{client} che comunicano tra loro
   \item Fare in modo che i pacchetti siano numerati
@@ -72,20 +70,35 @@ In generale vogliamo fare in modo che:
 \end{itemize}
 
 \chapter{Progettazione}
-Per l'implementazione ho voluto dividere il lavoro tra client e server,
+Per l'implementazione ho voluto dividere il lavoro tra \texttt{client} e server,
 dove sono rispettivamente mittente e destinatario. Il client viene diviso in tre thread,
 che hanno i seguenti ruoli:
 \begin{itemize}
-  \item Spedire i pacchetti in maniera sequenziale (Principale)
-  \item Ricevere gli ACK da parte del server
-  \item Gestire il timeout e la ritrasmissione
+  \item Spedire i pacchetti in maniera sequenziale (\texttt{main})
+  \item Ricevere gli ACK da parte del server (\texttt{receive\_ack})
+  \item Gestire il timeout e la ritrasmissione (\texttt{handle\_timeout})
 \end{itemize}
-Il timer è stato trattato come una risorsa condivisa, dove se viene trasmesso o ricevuto un pacchetto viene
-ripristinato. \\
-La finestra di trasmissione è una costante che indica quanti pacchetti vengono trasmessi dal mittente.
+Il timer viene trattato come una risorsa condivisa tra i thread, e viene avviato, arrestato o resettato a seconda dell'invio o ricezione di pacchetti.\\
+La finestra di trasmissione è definita tramite una costante che stabilisce quanti pacchetti possono essere inviati senza attendere ACK.
+Per simulare la perdita dei pacchetti si è utilizzata una costante
+\texttt{LOSS\_PROBABILITY}, che in combinazione con \texttt{random}
+permette a \texttt{send\_pack} di non spedire in modo casuale alcuni pacchetti.\\
 Per non mancare di generalità di seguito viene riportato il diagramma di flusso:
 
 
+
 \chapter{Conclusione}
+Alcune particolarità le possiamo trovare nel file di log.
+Se per esempio la dimensione della finestra di trasmissione è 1
+si osserva che il controllo di flusso diventa quello di
+uno Stop-And-Wait, dove ad ogni pacchetto spedito aspettiamo il suo 
+corrispettivo ACK prima di spedirne un altro.\\
+Un altro dettaglio sottile riguarda la trasmissione del primo pacchetto.
+Se il primo non viene spedito e il thread di ricevimento dell'ACK prova
+a chiedere di quel pacchetto, succede che viene lanciata un'eccezione
+\textit{WinError 10022}, che rappresenta il fatto che il server non abbia mandato nulla.
+Questo tipo di errore evidenzia l’inaffidabilità della 
+comunicazione basata su UDP, poiché non viene garantita 
+alcuna connessione o conferma di ricezione tra le due entità.
 
 \end{document}
