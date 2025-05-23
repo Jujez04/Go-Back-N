@@ -1,14 +1,22 @@
 import socket as sk # Per la creazione del socket UDP
 import time # Per creare il timer
-import threading # Per creare il thread che gestisce il timer
+import threading 
 import random
+import logging
 
 SERVER_ADDRESS = ('localhost', 12000)
 WINDOW_SIZE = 3
-LOSS_PROBABILITY = 0.9 # Probabilità di perdita del pacchetto
+LOSS_PROBABILITY = 0.6 # Probabilità di perdita del pacchetto
 
 # Creazione del socket UDP
 sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
+
+logging.basicConfig(
+    filename='client.log',
+    filemode='w',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
 
 # Definisco il timer del sender, così come le sue funzioni per lavorare sulla ritrasmissione dei pacchetti
 TIMEOUT = 2
@@ -42,24 +50,23 @@ stats = {
 
 # Definisco i metodi per inviare pacchetti, ricevere ACK e gestire il timeout
 def send_pack(pack_num):
-    global timer, LOSS_PROBABILITY
+    global timer, base, stats
     message = f'Pacchetto {pack_num}'
     # Simulazione perdita del pacchetto
     if random.random() < LOSS_PROBABILITY:
-        LOSS_PROBABILITY = 0.1 # Probabilità di perdita del pacchetto
         stats['persi'] += 1
         time.sleep(random.uniform(0, 1))
-        print(f"[SIMULAZIONE PERDITA] Pacchetto {pack_num} perso")
+        logging.warning(f"[SIMULAZIONE PERDITA] Pacchetto {pack_num} perso")
     else:
         stats['inviati'] += 1
-        print(f"Invio {message}")
+        logging.info(f"Invio {message}")
         sock.sendto(message.encode(), SERVER_ADDRESS)
     if pack_num == base:
         timer.start_timer()
 
 # Definizione del thread per ricevere gli ACK
 def receive_ack():
-    global timer, base
+    global timer, base, next_id_pack, stats
     while base < PACK_TO_SEND:
         time.sleep(1)
         try:
@@ -70,26 +77,26 @@ def receive_ack():
             stats['ack_ricevuti'] += 1
             with lock:
                 if ack_num == base:
-                    print(f"Ricevuto ACK {ack_num}")
+                    logging.info(f"Ricevuto ACK {ack_num}")
                     base = ack_num + 1
-                    print(f"Finestra aggiornata: base = {base}, next_id_pack = {next_id_pack}")
+                    logging.info(f"Finestra aggiornata: base = {base}, next_id_pack = {next_id_pack}")
                     if base == next_id_pack:
                         timer.stop_timer()
                     else:
                         timer.start_timer()
                 else:
-                    print(f"ACK duplicato o obsoleto ignorato: {ack_num}")
+                    logging.warning(f"ACK duplicato o obsoleto ignorato: {ack_num}")
         except OSError as e:
-            print(f"Errore nella ricezione dell'ACK: {e}")
+            logging.warning(f"Errore nella ricezione dell'ACK: {e}")
 
 # Definizione del thread per gestire il timeout
 def handle_timeout():
     global base, next_id_pack, timer
     while base < PACK_TO_SEND:
-        time.sleep(0.1)
+        time.sleep(0.5)
         with lock:
             if timer.has_reached_timeout():
-                print("Timeout raggiunto! Ritrasmetto da", base, "a", next_id_pack - 1)
+                logging.info(f"Timeout raggiunto! Ritrasmetto da {base} a {next_id_pack - 1}")
                 for i in range(base, next_id_pack):
                     stats['ritrasmessi'] += 1
                     send_pack(i)
@@ -115,8 +122,8 @@ try:
         time.sleep(0.5)
 finally:
     time.sleep(1)
-    print('Chiusura del socket')
+    logging.info('Chiusura del socket')
     sock.close()
-    print("\nStatistiche finali:")
+    logging.info("Statistiche finali:")
     for k, v in stats.items():
-        print(f"{k}: {v}")
+        logging.info(f"{k}: {v}")

@@ -38,5 +38,54 @@
 
 \tableofcontents
 
+\chapter{Introduzione}
+Il protocollo Go-Back-N ARQ è un protocollo di comunicazione che permette 
+la trasmissione di pacchetti dati in modo affidabile per mezzo di una 
+implementazione particolare della tecnica della finestra scorrevole. 
+
+\section{Analisi del protocollo}
+Nel protocollo Go-Back-N abbiamo due entità \textit{mittente} e \textit{ricevente}
+che comunicano scambiandosi pacchetti tra loro. In tutto ciò bisogna tenere
+conto di:
+\begin{itemize}
+  \item \textit{numerazione dei pacchetti}: la numerazione sequenziale permette l'identificazione e il riordino
+  \item \textit{timer di ritrasmissione}: se non viene trasmesso il pacchetto giusto ci dovrà essere un timer che ritrasmetterà dall'ultimo arrivato
+  \item \textit{finestra di trasmissione del mittente}: il mittente dovrà mandare più di un pacchetto.
+\end{itemize}
+Ai fini pratici analizzeremo anche quando la dimensione della finestra di trasmissione è 1,
+portando l'implementazione del Go-Back-N a simulare il comportamento del protocollo Stop-and-Wait.
+
+\section{Obiettivi}
+L'obiettivo è quello di implementare il protocollo tramite l'uso
+di socket UDP, quindi la connessione sarà più veloce ma meno sicura rispetto
+a TCP. In particolare, il tipo di protocollo è \textit{connectionless},
+quindi non stabilisce una connessione tra mittente e destinatario, ma invia i pacchetti
+senza alcun tipo di garanzia su ordine e integrità.
+\newline
+In generale vogliamo fare in modo che:
+\begin{itemize}
+  \item Ci siano due entità \textbf{server} e \textbf{client} che comunicano tra loro
+  \item Fare in modo che i pacchetti siano numerati
+  \item Gestire la finestra di trasmissione
+  \item Implementare una funzione di timeout che permetta la ritrasmissione dei pacchetti persi
+  \item Simulare la perdita di pacchetti
+\end{itemize}
+
+\chapter{Progettazione}
+Per l'implementazione ho voluto dividere il lavoro tra client e server,
+dove sono rispettivamente mittente e destinatario. Il client viene diviso in tre thread,
+che hanno i seguenti ruoli:
+\begin{itemize}
+  \item Spedire i pacchetti in maniera sequenziale (Principale)
+  \item Ricevere gli ACK da parte del server
+  \item Gestire il timeout e la ritrasmissione
+\end{itemize}
+Il timer è stato trattato come una risorsa condivisa, dove se viene trasmesso o ricevuto un pacchetto viene
+ripristinato. \\
+La finestra di trasmissione è una costante che indica quanti pacchetti vengono trasmessi dal mittente.
+Per non mancare di generalità di seguito viene riportato il diagramma di flusso:
+
+
+\chapter{Conclusione}
 
 \end{document}
