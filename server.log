@@ -1,0 +1,584 @@
+2025-05-24 07:48:14,680 - INFO - Associazione localhost porta 12000
+2025-05-24 07:48:14,683 - INFO - In attesa del pacchetto 0...
+2025-05-24 07:48:33,649 - INFO - Pacchetto 0 ricevuto correttamente
+2025-05-24 07:48:33,649 - INFO - Invio ACK per il pacchetto 0
+2025-05-24 07:48:35,650 - INFO - Inviato ACK 0 a ('127.0.0.1', 65398)
+2025-05-24 07:48:35,650 - INFO - In attesa del pacchetto 1...
+2025-05-24 07:48:35,650 - INFO - Pacchetto 1 ricevuto correttamente
+2025-05-24 07:48:35,650 - INFO - Invio ACK per il pacchetto 1
+2025-05-24 07:48:37,652 - INFO - Inviato ACK 1 a ('127.0.0.1', 65398)
+2025-05-24 07:48:37,653 - INFO - In attesa del pacchetto 2...
+2025-05-24 07:48:37,653 - INFO - Pacchetto 2 ricevuto correttamente
+2025-05-24 07:48:37,654 - INFO - Invio ACK per il pacchetto 2
+2025-05-24 07:48:39,655 - INFO - Inviato ACK 2 a ('127.0.0.1', 65398)
+2025-05-24 07:48:39,656 - INFO - In attesa del pacchetto 3...
+2025-05-24 07:48:39,656 - INFO - Pacchetto 3 ricevuto correttamente
+2025-05-24 07:48:39,656 - INFO - Invio ACK per il pacchetto 3
+2025-05-24 07:48:41,657 - INFO - Inviato ACK 3 a ('127.0.0.1', 65398)
+2025-05-24 07:48:41,657 - INFO - In attesa del pacchetto 4...
+2025-05-24 07:48:41,657 - WARNING - Pacchetto inatteso (seq: 1), reinviato ACK 3 a ('127.0.0.1', 65398)
+2025-05-24 07:48:41,658 - WARNING - Pacchetto inatteso (seq: 2), reinviato ACK 3 a ('127.0.0.1', 65398)
+2025-05-24 07:48:41,658 - WARNING - Pacchetto inatteso (seq: 3), reinviato ACK 3 a ('127.0.0.1', 65398)
+2025-05-24 07:48:41,658 - INFO - Pacchetto 4 ricevuto correttamente
+2025-05-24 07:48:41,658 - INFO - Invio ACK per il pacchetto 4
+2025-05-24 07:48:43,658 - INFO - Inviato ACK 4 a ('127.0.0.1', 65398)
+2025-05-24 07:48:43,659 - INFO - In attesa del pacchetto 5...
+2025-05-24 07:48:43,659 - INFO - Pacchetto 5 ricevuto correttamente
+2025-05-24 07:48:43,659 - INFO - Invio ACK per il pacchetto 5
+2025-05-24 07:48:45,660 - INFO - Inviato ACK 5 a ('127.0.0.1', 65398)
+2025-05-24 07:48:45,661 - INFO - In attesa del pacchetto 6...
+2025-05-24 07:48:45,661 - INFO - Pacchetto 6 ricevuto correttamente
+2025-05-24 07:48:45,662 - INFO - Invio ACK per il pacchetto 6
+2025-05-24 07:48:47,663 - INFO - Inviato ACK 6 a ('127.0.0.1', 65398)
+2025-05-24 07:48:47,664 - INFO - In attesa del pacchetto 7...
+2025-05-24 07:48:47,665 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 6 a ('127.0.0.1', 65398)
+2025-05-24 07:48:47,665 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 6 a ('127.0.0.1', 65398)
+2025-05-24 07:48:47,665 - WARNING - Pacchetto inatteso (seq: 8), reinviato ACK 6 a ('127.0.0.1', 65398)
+2025-05-24 07:48:47,968 - WARNING - Pacchetto inatteso (seq: 9), reinviato ACK 6 a ('127.0.0.1', 65398)
+2025-05-24 07:48:49,686 - INFO - Pacchetto 7 ricevuto correttamente
+2025-05-24 07:48:49,686 - INFO - Invio ACK per il pacchetto 7
+2025-05-24 07:48:51,688 - INFO - Inviato ACK 7 a ('127.0.0.1', 65398)
+2025-05-24 07:48:51,688 - INFO - In attesa del pacchetto 8...
+2025-05-24 07:48:51,689 - INFO - Pacchetto 8 ricevuto correttamente
+2025-05-24 07:48:51,689 - INFO - Invio ACK per il pacchetto 8
+2025-05-24 07:48:53,690 - INFO - Inviato ACK 8 a ('127.0.0.1', 65398)
+2025-05-24 07:48:53,690 - INFO - In attesa del pacchetto 9...
+2025-05-24 07:48:53,690 - WARNING - Pacchetto inatteso (seq: 8), reinviato ACK 8 a ('127.0.0.1', 65398)
+2025-05-24 07:48:53,690 - INFO - Pacchetto 9 ricevuto correttamente
+2025-05-24 07:48:53,690 - INFO - Invio ACK per il pacchetto 9
+2025-05-24 07:48:55,691 - INFO - Inviato ACK 9 a ('127.0.0.1', 65398)
+2025-05-24 07:48:55,692 - INFO - In attesa del pacchetto 10...
+2025-05-24 07:48:58,090 - INFO - Pacchetto 10 ricevuto correttamente
+2025-05-24 07:48:58,090 - INFO - Invio ACK per il pacchetto 10
+2025-05-24 07:49:00,092 - INFO - Inviato ACK 10 a ('127.0.0.1', 65398)
+2025-05-24 07:49:00,093 - INFO - In attesa del pacchetto 11...
+2025-05-24 07:49:00,093 - INFO - Pacchetto 11 ricevuto correttamente
+2025-05-24 07:49:00,093 - INFO - Invio ACK per il pacchetto 11
+2025-05-24 07:49:02,094 - INFO - Inviato ACK 11 a ('127.0.0.1', 65398)
+2025-05-24 07:49:02,095 - INFO - In attesa del pacchetto 12...
+2025-05-24 07:49:02,096 - INFO - Pacchetto 12 ricevuto correttamente
+2025-05-24 07:49:02,096 - INFO - Invio ACK per il pacchetto 12
+2025-05-24 07:49:04,097 - INFO - Inviato ACK 12 a ('127.0.0.1', 65398)
+2025-05-24 07:49:04,097 - INFO - In attesa del pacchetto 13...
+2025-05-24 07:49:04,097 - INFO - Pacchetto 13 ricevuto correttamente
+2025-05-24 07:49:04,098 - INFO - Invio ACK per il pacchetto 13
+2025-05-24 07:49:06,099 - INFO - Inviato ACK 13 a ('127.0.0.1', 65398)
+2025-05-24 07:49:06,099 - INFO - In attesa del pacchetto 14...
+2025-05-24 07:49:06,100 - WARNING - Pacchetto inatteso (seq: 15), reinviato ACK 13 a ('127.0.0.1', 65398)
+2025-05-24 07:49:08,345 - INFO - Pacchetto 14 ricevuto correttamente
+2025-05-24 07:49:08,346 - INFO - Invio ACK per il pacchetto 14
+2025-05-24 07:49:10,347 - INFO - Inviato ACK 14 a ('127.0.0.1', 65398)
+2025-05-24 07:49:10,348 - INFO - In attesa del pacchetto 15...
+2025-05-24 07:49:10,348 - INFO - Pacchetto 15 ricevuto correttamente
+2025-05-24 07:49:10,349 - INFO - Invio ACK per il pacchetto 15
+2025-05-24 07:49:12,350 - INFO - Inviato ACK 15 a ('127.0.0.1', 65398)
+2025-05-24 07:49:12,350 - INFO - In attesa del pacchetto 16...
+2025-05-24 07:49:12,351 - INFO - Pacchetto 16 ricevuto correttamente
+2025-05-24 07:49:12,351 - INFO - Invio ACK per il pacchetto 16
+2025-05-24 07:49:14,352 - INFO - Inviato ACK 16 a ('127.0.0.1', 65398)
+2025-05-24 07:49:14,353 - INFO - In attesa del pacchetto 17...
+2025-05-24 07:49:14,353 - INFO - Pacchetto 17 ricevuto correttamente
+2025-05-24 07:49:14,353 - INFO - Invio ACK per il pacchetto 17
+2025-05-24 07:49:16,355 - INFO - Inviato ACK 17 a ('127.0.0.1', 65398)
+2025-05-24 07:49:16,355 - INFO - In attesa del pacchetto 18...
+2025-05-24 07:49:16,355 - INFO - Pacchetto 18 ricevuto correttamente
+2025-05-24 07:49:16,356 - INFO - Invio ACK per il pacchetto 18
+2025-05-24 07:49:18,357 - INFO - Inviato ACK 18 a ('127.0.0.1', 65398)
+2025-05-24 07:49:18,358 - INFO - In attesa del pacchetto 19...
+2025-05-24 07:49:20,611 - INFO - Pacchetto 19 ricevuto correttamente
+2025-05-24 07:49:20,611 - INFO - Invio ACK per il pacchetto 19
+2025-05-24 07:49:22,612 - INFO - Inviato ACK 19 a ('127.0.0.1', 65398)
+2025-05-24 07:49:22,613 - INFO - In attesa del pacchetto 20...
+2025-05-24 07:49:22,613 - INFO - Pacchetto 20 ricevuto correttamente
+2025-05-24 07:49:22,613 - INFO - Invio ACK per il pacchetto 20
+2025-05-24 07:49:24,615 - INFO - Inviato ACK 20 a ('127.0.0.1', 65398)
+2025-05-24 07:49:24,615 - INFO - In attesa del pacchetto 21...
+2025-05-24 07:49:24,615 - INFO - Pacchetto 21 ricevuto correttamente
+2025-05-24 07:49:24,616 - INFO - Invio ACK per il pacchetto 21
+2025-05-24 07:49:26,617 - INFO - Inviato ACK 21 a ('127.0.0.1', 65398)
+2025-05-24 07:49:26,618 - INFO - In attesa del pacchetto 22...
+2025-05-24 07:49:26,618 - INFO - Pacchetto 22 ricevuto correttamente
+2025-05-24 07:49:26,618 - INFO - Invio ACK per il pacchetto 22
+2025-05-24 07:49:28,619 - INFO - Inviato ACK 22 a ('127.0.0.1', 65398)
+2025-05-24 07:49:28,620 - INFO - In attesa del pacchetto 23...
+2025-05-24 07:49:28,620 - WARNING - Pacchetto inatteso (seq: 24), reinviato ACK 22 a ('127.0.0.1', 65398)
+2025-05-24 07:49:28,644 - WARNING - Pacchetto inatteso (seq: 25), reinviato ACK 22 a ('127.0.0.1', 65398)
+2025-05-24 07:49:30,643 - INFO - Pacchetto 23 ricevuto correttamente
+2025-05-24 07:49:30,643 - INFO - Invio ACK per il pacchetto 23
+2025-05-24 07:49:32,645 - INFO - Inviato ACK 23 a ('127.0.0.1', 65398)
+2025-05-24 07:49:32,646 - INFO - In attesa del pacchetto 24...
+2025-05-24 07:49:32,646 - INFO - Pacchetto 24 ricevuto correttamente
+2025-05-24 07:49:32,646 - INFO - Invio ACK per il pacchetto 24
+2025-05-24 07:49:34,648 - INFO - Inviato ACK 24 a ('127.0.0.1', 65398)
+2025-05-24 07:49:34,648 - INFO - In attesa del pacchetto 25...
+2025-05-24 07:49:34,649 - INFO - Pacchetto 25 ricevuto correttamente
+2025-05-24 07:49:34,649 - INFO - Invio ACK per il pacchetto 25
+2025-05-24 07:49:36,650 - INFO - Inviato ACK 25 a ('127.0.0.1', 65398)
+2025-05-24 07:49:36,652 - INFO - In attesa del pacchetto 26...
+2025-05-24 07:49:36,652 - INFO - Pacchetto 26 ricevuto correttamente
+2025-05-24 07:49:36,652 - INFO - Invio ACK per il pacchetto 26
+2025-05-24 07:49:38,654 - INFO - Inviato ACK 26 a ('127.0.0.1', 65398)
+2025-05-24 07:49:38,654 - INFO - In attesa del pacchetto 27...
+2025-05-24 07:49:38,655 - INFO - Pacchetto 27 ricevuto correttamente
+2025-05-24 07:49:38,655 - INFO - Invio ACK per il pacchetto 27
+2025-05-24 07:49:40,656 - INFO - Inviato ACK 27 a ('127.0.0.1', 65398)
+2025-05-24 07:49:40,657 - INFO - In attesa del pacchetto 28...
+2025-05-24 07:49:40,657 - INFO - Pacchetto 28 ricevuto correttamente
+2025-05-24 07:49:40,657 - INFO - Invio ACK per il pacchetto 28
+2025-05-24 07:49:42,659 - INFO - Inviato ACK 28 a ('127.0.0.1', 65398)
+2025-05-24 07:49:42,659 - INFO - In attesa del pacchetto 29...
+2025-05-24 07:49:42,660 - INFO - Pacchetto 29 ricevuto correttamente
+2025-05-24 07:49:42,660 - INFO - Invio ACK per il pacchetto 29
+2025-05-24 07:49:44,661 - INFO - Inviato ACK 29 a ('127.0.0.1', 65398)
+2025-05-24 07:49:44,661 - INFO - Chiusura del socket
+2025-05-24 07:49:57,777 - INFO - Associazione localhost porta 12000
+2025-05-24 07:49:57,779 - INFO - In attesa del pacchetto 0...
+2025-05-24 07:50:00,218 - INFO - Pacchetto 0 ricevuto correttamente
+2025-05-24 07:50:00,218 - INFO - Invio ACK per il pacchetto 0
+2025-05-24 07:50:02,220 - INFO - Inviato ACK 0 a ('127.0.0.1', 57349)
+2025-05-24 07:50:02,220 - INFO - In attesa del pacchetto 1...
+2025-05-24 07:50:02,224 - INFO - Pacchetto 1 ricevuto correttamente
+2025-05-24 07:50:02,225 - INFO - Invio ACK per il pacchetto 1
+2025-05-24 07:50:04,227 - INFO - Inviato ACK 1 a ('127.0.0.1', 57349)
+2025-05-24 07:50:04,227 - INFO - In attesa del pacchetto 2...
+2025-05-24 07:50:06,728 - INFO - Pacchetto 2 ricevuto correttamente
+2025-05-24 07:50:06,729 - INFO - Invio ACK per il pacchetto 2
+2025-05-24 07:50:08,730 - INFO - Inviato ACK 2 a ('127.0.0.1', 57349)
+2025-05-24 07:50:08,731 - INFO - In attesa del pacchetto 3...
+2025-05-24 07:50:13,856 - INFO - Pacchetto 3 ricevuto correttamente
+2025-05-24 07:50:13,856 - INFO - Invio ACK per il pacchetto 3
+2025-05-24 07:50:15,858 - INFO - Inviato ACK 3 a ('127.0.0.1', 57349)
+2025-05-24 07:50:15,859 - INFO - In attesa del pacchetto 4...
+2025-05-24 07:50:21,727 - INFO - Pacchetto 4 ricevuto correttamente
+2025-05-24 07:50:21,727 - INFO - Invio ACK per il pacchetto 4
+2025-05-24 07:50:23,728 - INFO - Inviato ACK 4 a ('127.0.0.1', 57349)
+2025-05-24 07:50:23,728 - INFO - In attesa del pacchetto 5...
+2025-05-24 07:50:28,674 - INFO - Pacchetto 5 ricevuto correttamente
+2025-05-24 07:50:28,674 - INFO - Invio ACK per il pacchetto 5
+2025-05-24 07:50:30,676 - INFO - Inviato ACK 5 a ('127.0.0.1', 57349)
+2025-05-24 07:50:30,677 - INFO - In attesa del pacchetto 6...
+2025-05-24 07:50:30,680 - INFO - Pacchetto 6 ricevuto correttamente
+2025-05-24 07:50:30,681 - INFO - Invio ACK per il pacchetto 6
+2025-05-24 07:50:32,683 - INFO - Inviato ACK 6 a ('127.0.0.1', 57349)
+2025-05-24 07:50:32,684 - INFO - In attesa del pacchetto 7...
+2025-05-24 07:50:32,686 - INFO - Pacchetto 7 ricevuto correttamente
+2025-05-24 07:50:32,687 - INFO - Invio ACK per il pacchetto 7
+2025-05-24 07:50:34,688 - INFO - Inviato ACK 7 a ('127.0.0.1', 57349)
+2025-05-24 07:50:34,689 - INFO - In attesa del pacchetto 8...
+2025-05-24 07:50:34,693 - INFO - Pacchetto 8 ricevuto correttamente
+2025-05-24 07:50:34,693 - INFO - Invio ACK per il pacchetto 8
+2025-05-24 07:50:36,694 - INFO - Inviato ACK 8 a ('127.0.0.1', 57349)
+2025-05-24 07:50:36,694 - INFO - In attesa del pacchetto 9...
+2025-05-24 07:50:36,694 - WARNING - Pacchetto inatteso (seq: 8), reinviato ACK 8 a ('127.0.0.1', 57349)
+2025-05-24 07:50:36,695 - INFO - Pacchetto 9 ricevuto correttamente
+2025-05-24 07:50:36,695 - INFO - Invio ACK per il pacchetto 9
+2025-05-24 07:50:38,696 - INFO - Inviato ACK 9 a ('127.0.0.1', 57349)
+2025-05-24 07:50:38,696 - INFO - In attesa del pacchetto 10...
+2025-05-24 07:50:44,622 - INFO - Pacchetto 10 ricevuto correttamente
+2025-05-24 07:50:44,623 - INFO - Invio ACK per il pacchetto 10
+2025-05-24 07:50:46,623 - INFO - Inviato ACK 10 a ('127.0.0.1', 57349)
+2025-05-24 07:50:46,624 - INFO - In attesa del pacchetto 11...
+2025-05-24 07:50:46,943 - INFO - Pacchetto 11 ricevuto correttamente
+2025-05-24 07:50:46,943 - INFO - Invio ACK per il pacchetto 11
+2025-05-24 07:50:48,944 - INFO - Inviato ACK 11 a ('127.0.0.1', 57349)
+2025-05-24 07:50:48,945 - INFO - In attesa del pacchetto 12...
+2025-05-24 07:50:51,865 - INFO - Pacchetto 12 ricevuto correttamente
+2025-05-24 07:50:51,866 - INFO - Invio ACK per il pacchetto 12
+2025-05-24 07:50:53,867 - INFO - Inviato ACK 12 a ('127.0.0.1', 57349)
+2025-05-24 07:50:53,868 - INFO - In attesa del pacchetto 13...
+2025-05-24 07:50:54,368 - INFO - Pacchetto 13 ricevuto correttamente
+2025-05-24 07:50:54,369 - INFO - Invio ACK per il pacchetto 13
+2025-05-24 07:50:56,370 - INFO - Inviato ACK 13 a ('127.0.0.1', 57349)
+2025-05-24 07:50:56,370 - INFO - In attesa del pacchetto 14...
+2025-05-24 07:51:01,244 - INFO - Pacchetto 14 ricevuto correttamente
+2025-05-24 07:51:01,245 - INFO - Invio ACK per il pacchetto 14
+2025-05-24 07:51:03,247 - INFO - Inviato ACK 14 a ('127.0.0.1', 57349)
+2025-05-24 07:51:03,248 - INFO - In attesa del pacchetto 15...
+2025-05-24 07:51:06,326 - INFO - Pacchetto 15 ricevuto correttamente
+2025-05-24 07:51:06,327 - INFO - Invio ACK per il pacchetto 15
+2025-05-24 07:51:08,328 - INFO - Inviato ACK 15 a ('127.0.0.1', 57349)
+2025-05-24 07:51:08,328 - INFO - In attesa del pacchetto 16...
+2025-05-24 07:51:11,602 - INFO - Pacchetto 16 ricevuto correttamente
+2025-05-24 07:51:11,602 - INFO - Invio ACK per il pacchetto 16
+2025-05-24 07:51:13,603 - INFO - Inviato ACK 16 a ('127.0.0.1', 57349)
+2025-05-24 07:51:13,603 - INFO - In attesa del pacchetto 17...
+2025-05-24 07:51:13,605 - INFO - Pacchetto 17 ricevuto correttamente
+2025-05-24 07:51:13,605 - INFO - Invio ACK per il pacchetto 17
+2025-05-24 07:51:15,606 - INFO - Inviato ACK 17 a ('127.0.0.1', 57349)
+2025-05-24 07:51:15,606 - INFO - In attesa del pacchetto 18...
+2025-05-24 07:51:15,608 - INFO - Pacchetto 18 ricevuto correttamente
+2025-05-24 07:51:15,608 - INFO - Invio ACK per il pacchetto 18
+2025-05-24 07:51:17,610 - INFO - Inviato ACK 18 a ('127.0.0.1', 57349)
+2025-05-24 07:51:17,610 - INFO - In attesa del pacchetto 19...
+2025-05-24 07:51:17,612 - WARNING - Pacchetto inatteso (seq: 18), reinviato ACK 18 a ('127.0.0.1', 57349)
+2025-05-24 07:51:17,614 - INFO - Pacchetto 19 ricevuto correttamente
+2025-05-24 07:51:17,614 - INFO - Invio ACK per il pacchetto 19
+2025-05-24 07:51:19,616 - INFO - Inviato ACK 19 a ('127.0.0.1', 57349)
+2025-05-24 07:51:19,616 - INFO - In attesa del pacchetto 20...
+2025-05-24 07:51:22,122 - INFO - Pacchetto 20 ricevuto correttamente
+2025-05-24 07:51:22,123 - INFO - Invio ACK per il pacchetto 20
+2025-05-24 07:51:24,125 - INFO - Inviato ACK 20 a ('127.0.0.1', 57349)
+2025-05-24 07:51:24,125 - INFO - In attesa del pacchetto 21...
+2025-05-24 07:51:27,386 - INFO - Pacchetto 21 ricevuto correttamente
+2025-05-24 07:51:27,386 - INFO - Invio ACK per il pacchetto 21
+2025-05-24 07:51:29,388 - INFO - Inviato ACK 21 a ('127.0.0.1', 57349)
+2025-05-24 07:51:29,388 - INFO - In attesa del pacchetto 22...
+2025-05-24 07:51:29,888 - INFO - Pacchetto 22 ricevuto correttamente
+2025-05-24 07:51:29,888 - INFO - Invio ACK per il pacchetto 22
+2025-05-24 07:51:31,890 - INFO - Inviato ACK 22 a ('127.0.0.1', 57349)
+2025-05-24 07:51:31,891 - INFO - In attesa del pacchetto 23...
+2025-05-24 07:51:32,392 - INFO - Pacchetto 23 ricevuto correttamente
+2025-05-24 07:51:32,392 - INFO - Invio ACK per il pacchetto 23
+2025-05-24 07:51:34,393 - INFO - Inviato ACK 23 a ('127.0.0.1', 57349)
+2025-05-24 07:51:34,394 - INFO - In attesa del pacchetto 24...
+2025-05-24 07:51:34,397 - INFO - Pacchetto 24 ricevuto correttamente
+2025-05-24 07:51:34,398 - INFO - Invio ACK per il pacchetto 24
+2025-05-24 07:51:36,399 - INFO - Inviato ACK 24 a ('127.0.0.1', 57349)
+2025-05-24 07:51:36,400 - INFO - In attesa del pacchetto 25...
+2025-05-24 07:51:36,403 - INFO - Pacchetto 25 ricevuto correttamente
+2025-05-24 07:51:36,404 - INFO - Invio ACK per il pacchetto 25
+2025-05-24 07:51:38,405 - INFO - Inviato ACK 25 a ('127.0.0.1', 57349)
+2025-05-24 07:51:38,406 - INFO - In attesa del pacchetto 26...
+2025-05-24 07:51:40,915 - INFO - Pacchetto 26 ricevuto correttamente
+2025-05-24 07:51:40,915 - INFO - Invio ACK per il pacchetto 26
+2025-05-24 07:51:42,917 - INFO - Inviato ACK 26 a ('127.0.0.1', 57349)
+2025-05-24 07:51:42,917 - INFO - In attesa del pacchetto 27...
+2025-05-24 07:51:43,114 - INFO - Pacchetto 27 ricevuto correttamente
+2025-05-24 07:51:43,114 - INFO - Invio ACK per il pacchetto 27
+2025-05-24 07:51:45,115 - INFO - Inviato ACK 27 a ('127.0.0.1', 57349)
+2025-05-24 07:51:45,116 - INFO - In attesa del pacchetto 28...
+2025-05-24 07:51:45,120 - INFO - Pacchetto 28 ricevuto correttamente
+2025-05-24 07:51:45,121 - INFO - Invio ACK per il pacchetto 28
+2025-05-24 07:51:47,123 - INFO - Inviato ACK 28 a ('127.0.0.1', 57349)
+2025-05-24 07:51:47,123 - INFO - In attesa del pacchetto 29...
+2025-05-24 07:51:47,623 - INFO - Pacchetto 29 ricevuto correttamente
+2025-05-24 07:51:47,623 - INFO - Invio ACK per il pacchetto 29
+2025-05-24 07:51:49,625 - INFO - Inviato ACK 29 a ('127.0.0.1', 57349)
+2025-05-24 07:51:49,625 - INFO - Chiusura del socket
+2025-05-24 07:52:43,767 - INFO - Associazione localhost porta 12000
+2025-05-24 07:52:43,770 - INFO - In attesa del pacchetto 0...
+2025-05-24 07:52:50,578 - WARNING - Pacchetto inatteso (seq: 2), reinviato ACK -1 a ('127.0.0.1', 50499)
+2025-05-24 07:52:55,981 - INFO - Pacchetto 0 ricevuto correttamente
+2025-05-24 07:52:55,981 - INFO - Invio ACK per il pacchetto 0
+2025-05-24 07:52:57,982 - INFO - Inviato ACK 0 a ('127.0.0.1', 50499)
+2025-05-24 07:52:57,983 - INFO - In attesa del pacchetto 1...
+2025-05-24 07:53:00,451 - INFO - Pacchetto 1 ricevuto correttamente
+2025-05-24 07:53:00,451 - INFO - Invio ACK per il pacchetto 1
+2025-05-24 07:53:02,452 - INFO - Inviato ACK 1 a ('127.0.0.1', 50499)
+2025-05-24 07:53:02,453 - INFO - In attesa del pacchetto 2...
+2025-05-24 07:53:02,453 - INFO - Pacchetto 2 ricevuto correttamente
+2025-05-24 07:53:02,453 - INFO - Invio ACK per il pacchetto 2
+2025-05-24 07:53:04,454 - INFO - Inviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:04,455 - INFO - In attesa del pacchetto 3...
+2025-05-24 07:53:04,747 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:07,060 - WARNING - Pacchetto inatteso (seq: 4), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:07,061 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:09,826 - WARNING - Pacchetto inatteso (seq: 4), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:12,579 - WARNING - Pacchetto inatteso (seq: 4), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:12,580 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 2 a ('127.0.0.1', 50499)
+2025-05-24 07:53:14,586 - INFO - Pacchetto 3 ricevuto correttamente
+2025-05-24 07:53:14,587 - INFO - Invio ACK per il pacchetto 3
+2025-05-24 07:53:16,588 - INFO - Inviato ACK 3 a ('127.0.0.1', 50499)
+2025-05-24 07:53:16,589 - INFO - In attesa del pacchetto 4...
+2025-05-24 07:53:16,590 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 3 a ('127.0.0.1', 50499)
+2025-05-24 07:53:18,599 - INFO - Pacchetto 4 ricevuto correttamente
+2025-05-24 07:53:18,600 - INFO - Invio ACK per il pacchetto 4
+2025-05-24 07:53:20,600 - INFO - Inviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:20,600 - INFO - In attesa del pacchetto 5...
+2025-05-24 07:53:20,647 - WARNING - Pacchetto inatteso (seq: 7), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:23,714 - WARNING - Pacchetto inatteso (seq: 7), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:29,444 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:29,446 - WARNING - Pacchetto inatteso (seq: 7), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:32,284 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:37,843 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:40,156 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:42,944 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:48,528 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 4 a ('127.0.0.1', 50499)
+2025-05-24 07:53:50,561 - INFO - Pacchetto 5 ricevuto correttamente
+2025-05-24 07:53:50,562 - INFO - Invio ACK per il pacchetto 5
+2025-05-24 07:53:52,563 - INFO - Inviato ACK 5 a ('127.0.0.1', 50499)
+2025-05-24 07:53:52,564 - INFO - In attesa del pacchetto 6...
+2025-05-24 07:53:52,564 - INFO - Pacchetto 6 ricevuto correttamente
+2025-05-24 07:53:52,565 - INFO - Invio ACK per il pacchetto 6
+2025-05-24 07:53:54,567 - INFO - Inviato ACK 6 a ('127.0.0.1', 50499)
+2025-05-24 07:53:54,567 - INFO - In attesa del pacchetto 7...
+2025-05-24 07:53:54,567 - INFO - Pacchetto 7 ricevuto correttamente
+2025-05-24 07:53:54,568 - INFO - Invio ACK per il pacchetto 7
+2025-05-24 07:53:56,569 - INFO - Inviato ACK 7 a ('127.0.0.1', 50499)
+2025-05-24 07:53:56,570 - INFO - In attesa del pacchetto 8...
+2025-05-24 07:53:56,570 - WARNING - Pacchetto inatteso (seq: 9), reinviato ACK 7 a ('127.0.0.1', 50499)
+2025-05-24 07:53:59,041 - INFO - Pacchetto 8 ricevuto correttamente
+2025-05-24 07:53:59,041 - INFO - Invio ACK per il pacchetto 8
+2025-05-24 07:54:01,042 - INFO - Inviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:01,043 - INFO - In attesa del pacchetto 9...
+2025-05-24 07:54:01,043 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:01,542 - WARNING - Pacchetto inatteso (seq: 11), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:03,762 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:09,088 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:11,748 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:15,130 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:15,133 - WARNING - Pacchetto inatteso (seq: 11), reinviato ACK 8 a ('127.0.0.1', 50499)
+2025-05-24 07:54:17,140 - INFO - Pacchetto 9 ricevuto correttamente
+2025-05-24 07:54:17,140 - INFO - Invio ACK per il pacchetto 9
+2025-05-24 07:54:19,142 - INFO - Inviato ACK 9 a ('127.0.0.1', 50499)
+2025-05-24 07:54:19,142 - INFO - In attesa del pacchetto 10...
+2025-05-24 07:54:19,143 - INFO - Pacchetto 10 ricevuto correttamente
+2025-05-24 07:54:19,143 - INFO - Invio ACK per il pacchetto 10
+2025-05-24 07:54:21,144 - INFO - Inviato ACK 10 a ('127.0.0.1', 50499)
+2025-05-24 07:54:21,145 - INFO - In attesa del pacchetto 11...
+2025-05-24 07:54:21,145 - WARNING - Pacchetto inatteso (seq: 12), reinviato ACK 10 a ('127.0.0.1', 50499)
+2025-05-24 07:54:21,229 - WARNING - Pacchetto inatteso (seq: 13), reinviato ACK 10 a ('127.0.0.1', 50499)
+2025-05-24 07:54:23,236 - INFO - Pacchetto 11 ricevuto correttamente
+2025-05-24 07:54:23,236 - INFO - Invio ACK per il pacchetto 11
+2025-05-24 07:54:25,237 - INFO - Inviato ACK 11 a ('127.0.0.1', 50499)
+2025-05-24 07:54:25,238 - INFO - In attesa del pacchetto 12...
+2025-05-24 07:54:25,238 - INFO - Pacchetto 12 ricevuto correttamente
+2025-05-24 07:54:25,238 - INFO - Invio ACK per il pacchetto 12
+2025-05-24 07:54:27,239 - INFO - Inviato ACK 12 a ('127.0.0.1', 50499)
+2025-05-24 07:54:27,239 - INFO - In attesa del pacchetto 13...
+2025-05-24 07:54:27,427 - WARNING - Pacchetto inatteso (seq: 15), reinviato ACK 12 a ('127.0.0.1', 50499)
+2025-05-24 07:54:29,653 - WARNING - Pacchetto inatteso (seq: 14), reinviato ACK 12 a ('127.0.0.1', 50499)
+2025-05-24 07:54:33,645 - WARNING - Pacchetto inatteso (seq: 15), reinviato ACK 12 a ('127.0.0.1', 50499)
+2025-05-24 07:54:35,652 - INFO - Pacchetto 13 ricevuto correttamente
+2025-05-24 07:54:35,653 - INFO - Invio ACK per il pacchetto 13
+2025-05-24 07:54:37,655 - INFO - Inviato ACK 13 a ('127.0.0.1', 50499)
+2025-05-24 07:54:37,655 - INFO - In attesa del pacchetto 14...
+2025-05-24 07:54:37,656 - WARNING - Pacchetto inatteso (seq: 15), reinviato ACK 13 a ('127.0.0.1', 50499)
+2025-05-24 07:54:39,785 - INFO - Pacchetto 14 ricevuto correttamente
+2025-05-24 07:54:39,785 - INFO - Invio ACK per il pacchetto 14
+2025-05-24 07:54:41,786 - INFO - Inviato ACK 14 a ('127.0.0.1', 50499)
+2025-05-24 07:54:41,786 - INFO - In attesa del pacchetto 15...
+2025-05-24 07:54:41,786 - INFO - Pacchetto 15 ricevuto correttamente
+2025-05-24 07:54:41,786 - INFO - Invio ACK per il pacchetto 15
+2025-05-24 07:54:43,787 - INFO - Inviato ACK 15 a ('127.0.0.1', 50499)
+2025-05-24 07:54:43,788 - INFO - In attesa del pacchetto 16...
+2025-05-24 07:54:43,788 - WARNING - Pacchetto inatteso (seq: 17), reinviato ACK 15 a ('127.0.0.1', 50499)
+2025-05-24 07:54:46,497 - WARNING - Pacchetto inatteso (seq: 18), reinviato ACK 15 a ('127.0.0.1', 50499)
+2025-05-24 07:54:49,305 - WARNING - Pacchetto inatteso (seq: 17), reinviato ACK 15 a ('127.0.0.1', 50499)
+2025-05-24 07:54:52,040 - INFO - Pacchetto 16 ricevuto correttamente
+2025-05-24 07:54:52,041 - INFO - Invio ACK per il pacchetto 16
+2025-05-24 07:54:54,042 - INFO - Inviato ACK 16 a ('127.0.0.1', 50499)
+2025-05-24 07:54:54,043 - INFO - In attesa del pacchetto 17...
+2025-05-24 07:54:54,128 - WARNING - Pacchetto inatteso (seq: 19), reinviato ACK 16 a ('127.0.0.1', 50499)
+2025-05-24 07:54:56,665 - WARNING - Pacchetto inatteso (seq: 19), reinviato ACK 16 a ('127.0.0.1', 50499)
+2025-05-24 07:54:58,671 - INFO - Pacchetto 17 ricevuto correttamente
+2025-05-24 07:54:58,671 - INFO - Invio ACK per il pacchetto 17
+2025-05-24 07:55:00,673 - INFO - Inviato ACK 17 a ('127.0.0.1', 50499)
+2025-05-24 07:55:00,673 - INFO - In attesa del pacchetto 18...
+2025-05-24 07:55:00,674 - WARNING - Pacchetto inatteso (seq: 19), reinviato ACK 17 a ('127.0.0.1', 50499)
+2025-05-24 07:55:01,086 - WARNING - Pacchetto inatteso (seq: 20), reinviato ACK 17 a ('127.0.0.1', 50499)
+2025-05-24 07:55:03,155 - WARNING - Pacchetto inatteso (seq: 19), reinviato ACK 17 a ('127.0.0.1', 50499)
+2025-05-24 07:55:11,932 - INFO - Pacchetto 18 ricevuto correttamente
+2025-05-24 07:55:11,933 - INFO - Invio ACK per il pacchetto 18
+2025-05-24 07:55:13,935 - INFO - Inviato ACK 18 a ('127.0.0.1', 50499)
+2025-05-24 07:55:13,935 - INFO - In attesa del pacchetto 19...
+2025-05-24 07:55:13,935 - INFO - Pacchetto 19 ricevuto correttamente
+2025-05-24 07:55:13,936 - INFO - Invio ACK per il pacchetto 19
+2025-05-24 07:55:15,937 - INFO - Inviato ACK 19 a ('127.0.0.1', 50499)
+2025-05-24 07:55:15,938 - INFO - In attesa del pacchetto 20...
+2025-05-24 07:55:15,938 - INFO - Pacchetto 20 ricevuto correttamente
+2025-05-24 07:55:15,938 - INFO - Invio ACK per il pacchetto 20
+2025-05-24 07:55:17,939 - INFO - Inviato ACK 20 a ('127.0.0.1', 50499)
+2025-05-24 07:55:17,939 - INFO - In attesa del pacchetto 21...
+2025-05-24 07:55:17,939 - WARNING - Pacchetto inatteso (seq: 22), reinviato ACK 20 a ('127.0.0.1', 50499)
+2025-05-24 07:55:20,340 - INFO - Pacchetto 21 ricevuto correttamente
+2025-05-24 07:55:20,340 - INFO - Invio ACK per il pacchetto 21
+2025-05-24 07:55:22,341 - INFO - Inviato ACK 21 a ('127.0.0.1', 50499)
+2025-05-24 07:55:22,341 - INFO - In attesa del pacchetto 22...
+2025-05-24 07:55:22,341 - WARNING - Pacchetto inatteso (seq: 23), reinviato ACK 21 a ('127.0.0.1', 50499)
+2025-05-24 07:55:25,201 - WARNING - Pacchetto inatteso (seq: 23), reinviato ACK 21 a ('127.0.0.1', 50499)
+2025-05-24 07:55:25,203 - WARNING - Pacchetto inatteso (seq: 24), reinviato ACK 21 a ('127.0.0.1', 50499)
+2025-05-24 07:55:27,211 - INFO - Pacchetto 22 ricevuto correttamente
+2025-05-24 07:55:27,211 - INFO - Invio ACK per il pacchetto 22
+2025-05-24 07:55:29,213 - INFO - Inviato ACK 22 a ('127.0.0.1', 50499)
+2025-05-24 07:55:29,214 - INFO - In attesa del pacchetto 23...
+2025-05-24 07:55:29,455 - WARNING - Pacchetto inatteso (seq: 25), reinviato ACK 22 a ('127.0.0.1', 50499)
+2025-05-24 07:55:32,100 - WARNING - Pacchetto inatteso (seq: 24), reinviato ACK 22 a ('127.0.0.1', 50499)
+2025-05-24 07:55:34,126 - INFO - Pacchetto 23 ricevuto correttamente
+2025-05-24 07:55:34,127 - INFO - Invio ACK per il pacchetto 23
+2025-05-24 07:55:36,128 - INFO - Inviato ACK 23 a ('127.0.0.1', 50499)
+2025-05-24 07:55:36,128 - INFO - In attesa del pacchetto 24...
+2025-05-24 07:55:36,129 - WARNING - Pacchetto inatteso (seq: 25), reinviato ACK 23 a ('127.0.0.1', 50499)
+2025-05-24 07:55:36,418 - WARNING - Pacchetto inatteso (seq: 26), reinviato ACK 23 a ('127.0.0.1', 50499)
+2025-05-24 07:55:39,024 - WARNING - Pacchetto inatteso (seq: 25), reinviato ACK 23 a ('127.0.0.1', 50499)
+2025-05-24 07:55:39,026 - WARNING - Pacchetto inatteso (seq: 26), reinviato ACK 23 a ('127.0.0.1', 50499)
+2025-05-24 07:55:43,646 - INFO - Pacchetto 24 ricevuto correttamente
+2025-05-24 07:55:43,646 - INFO - Invio ACK per il pacchetto 24
+2025-05-24 07:55:45,647 - INFO - Inviato ACK 24 a ('127.0.0.1', 50499)
+2025-05-24 07:55:45,648 - INFO - In attesa del pacchetto 25...
+2025-05-24 07:55:45,672 - WARNING - Pacchetto inatteso (seq: 27), reinviato ACK 24 a ('127.0.0.1', 50499)
+2025-05-24 07:55:47,674 - INFO - Pacchetto 25 ricevuto correttamente
+2025-05-24 07:55:47,675 - INFO - Invio ACK per il pacchetto 25
+2025-05-24 07:55:49,676 - INFO - Inviato ACK 25 a ('127.0.0.1', 50499)
+2025-05-24 07:55:49,676 - INFO - In attesa del pacchetto 26...
+2025-05-24 07:55:51,721 - INFO - Pacchetto 26 ricevuto correttamente
+2025-05-24 07:55:51,721 - INFO - Invio ACK per il pacchetto 26
+2025-05-24 07:55:53,722 - INFO - Inviato ACK 26 a ('127.0.0.1', 50499)
+2025-05-24 07:55:53,722 - INFO - In attesa del pacchetto 27...
+2025-05-24 07:55:53,722 - WARNING - Pacchetto inatteso (seq: 28), reinviato ACK 26 a ('127.0.0.1', 50499)
+2025-05-24 07:55:53,724 - WARNING - Pacchetto inatteso (seq: 29), reinviato ACK 26 a ('127.0.0.1', 50499)
+2025-05-24 07:55:56,809 - WARNING - Pacchetto inatteso (seq: 28), reinviato ACK 26 a ('127.0.0.1', 50499)
+2025-05-24 07:55:59,897 - WARNING - Pacchetto inatteso (seq: 28), reinviato ACK 26 a ('127.0.0.1', 50499)
+2025-05-24 07:56:07,203 - INFO - Pacchetto 27 ricevuto correttamente
+2025-05-24 07:56:07,204 - INFO - Invio ACK per il pacchetto 27
+2025-05-24 07:56:09,205 - INFO - Inviato ACK 27 a ('127.0.0.1', 50499)
+2025-05-24 07:56:09,206 - INFO - In attesa del pacchetto 28...
+2025-05-24 07:56:09,206 - WARNING - Pacchetto inatteso (seq: 29), reinviato ACK 27 a ('127.0.0.1', 50499)
+2025-05-24 07:56:12,269 - WARNING - Pacchetto inatteso (seq: 29), reinviato ACK 27 a ('127.0.0.1', 50499)
+2025-05-24 07:56:17,796 - INFO - Pacchetto 28 ricevuto correttamente
+2025-05-24 07:56:17,797 - INFO - Invio ACK per il pacchetto 28
+2025-05-24 07:56:19,798 - INFO - Inviato ACK 28 a ('127.0.0.1', 50499)
+2025-05-24 07:56:19,799 - INFO - In attesa del pacchetto 29...
+2025-05-24 07:56:24,211 - INFO - Pacchetto 29 ricevuto correttamente
+2025-05-24 07:56:24,212 - INFO - Invio ACK per il pacchetto 29
+2025-05-24 07:56:26,214 - INFO - Inviato ACK 29 a ('127.0.0.1', 50499)
+2025-05-24 07:56:26,214 - INFO - Chiusura del socket
+2025-05-24 07:57:10,057 - INFO - Associazione localhost porta 12000
+2025-05-24 07:57:10,060 - INFO - In attesa del pacchetto 0...
+2025-05-24 07:57:12,310 - INFO - Pacchetto 0 ricevuto correttamente
+2025-05-24 07:57:12,310 - INFO - Invio ACK per il pacchetto 0
+2025-05-24 07:57:14,311 - INFO - Inviato ACK 0 a ('127.0.0.1', 52966)
+2025-05-24 07:57:14,311 - INFO - In attesa del pacchetto 1...
+2025-05-24 07:57:14,312 - INFO - Pacchetto 1 ricevuto correttamente
+2025-05-24 07:57:14,312 - INFO - Invio ACK per il pacchetto 1
+2025-05-24 07:57:16,313 - INFO - Inviato ACK 1 a ('127.0.0.1', 52966)
+2025-05-24 07:57:16,314 - INFO - In attesa del pacchetto 2...
+2025-05-24 07:57:16,314 - INFO - Pacchetto 2 ricevuto correttamente
+2025-05-24 07:57:16,314 - INFO - Invio ACK per il pacchetto 2
+2025-05-24 07:57:18,315 - INFO - Inviato ACK 2 a ('127.0.0.1', 52966)
+2025-05-24 07:57:18,316 - INFO - In attesa del pacchetto 3...
+2025-05-24 07:57:18,317 - INFO - Pacchetto 3 ricevuto correttamente
+2025-05-24 07:57:18,317 - INFO - Invio ACK per il pacchetto 3
+2025-05-24 07:57:20,318 - INFO - Inviato ACK 3 a ('127.0.0.1', 52966)
+2025-05-24 07:57:20,319 - INFO - In attesa del pacchetto 4...
+2025-05-24 07:57:20,319 - INFO - Pacchetto 4 ricevuto correttamente
+2025-05-24 07:57:20,319 - INFO - Invio ACK per il pacchetto 4
+2025-05-24 07:57:22,321 - INFO - Inviato ACK 4 a ('127.0.0.1', 52966)
+2025-05-24 07:57:22,322 - INFO - In attesa del pacchetto 5...
+2025-05-24 07:57:22,323 - WARNING - Pacchetto inatteso (seq: 2), reinviato ACK 4 a ('127.0.0.1', 52966)
+2025-05-24 07:57:22,323 - WARNING - Pacchetto inatteso (seq: 3), reinviato ACK 4 a ('127.0.0.1', 52966)
+2025-05-24 07:57:22,324 - WARNING - Pacchetto inatteso (seq: 4), reinviato ACK 4 a ('127.0.0.1', 52966)
+2025-05-24 07:57:22,324 - INFO - Pacchetto 5 ricevuto correttamente
+2025-05-24 07:57:22,324 - INFO - Invio ACK per il pacchetto 5
+2025-05-24 07:57:24,325 - INFO - Inviato ACK 5 a ('127.0.0.1', 52966)
+2025-05-24 07:57:24,326 - INFO - In attesa del pacchetto 6...
+2025-05-24 07:57:24,326 - INFO - Pacchetto 6 ricevuto correttamente
+2025-05-24 07:57:24,326 - INFO - Invio ACK per il pacchetto 6
+2025-05-24 07:57:26,328 - INFO - Inviato ACK 6 a ('127.0.0.1', 52966)
+2025-05-24 07:57:26,328 - INFO - In attesa del pacchetto 7...
+2025-05-24 07:57:26,329 - INFO - Pacchetto 7 ricevuto correttamente
+2025-05-24 07:57:26,329 - INFO - Invio ACK per il pacchetto 7
+2025-05-24 07:57:28,330 - INFO - Inviato ACK 7 a ('127.0.0.1', 52966)
+2025-05-24 07:57:28,332 - INFO - In attesa del pacchetto 8...
+2025-05-24 07:57:28,332 - WARNING - Pacchetto inatteso (seq: 5), reinviato ACK 7 a ('127.0.0.1', 52966)
+2025-05-24 07:57:28,333 - WARNING - Pacchetto inatteso (seq: 6), reinviato ACK 7 a ('127.0.0.1', 52966)
+2025-05-24 07:57:28,333 - WARNING - Pacchetto inatteso (seq: 7), reinviato ACK 7 a ('127.0.0.1', 52966)
+2025-05-24 07:57:28,333 - INFO - Pacchetto 8 ricevuto correttamente
+2025-05-24 07:57:28,333 - INFO - Invio ACK per il pacchetto 8
+2025-05-24 07:57:30,334 - INFO - Inviato ACK 8 a ('127.0.0.1', 52966)
+2025-05-24 07:57:30,334 - INFO - In attesa del pacchetto 9...
+2025-05-24 07:57:30,334 - INFO - Pacchetto 9 ricevuto correttamente
+2025-05-24 07:57:30,335 - INFO - Invio ACK per il pacchetto 9
+2025-05-24 07:57:32,336 - INFO - Inviato ACK 9 a ('127.0.0.1', 52966)
+2025-05-24 07:57:32,337 - INFO - In attesa del pacchetto 10...
+2025-05-24 07:57:32,337 - INFO - Pacchetto 10 ricevuto correttamente
+2025-05-24 07:57:32,337 - INFO - Invio ACK per il pacchetto 10
+2025-05-24 07:57:34,338 - INFO - Inviato ACK 10 a ('127.0.0.1', 52966)
+2025-05-24 07:57:34,339 - INFO - In attesa del pacchetto 11...
+2025-05-24 07:57:34,339 - WARNING - Pacchetto inatteso (seq: 8), reinviato ACK 10 a ('127.0.0.1', 52966)
+2025-05-24 07:57:34,340 - WARNING - Pacchetto inatteso (seq: 9), reinviato ACK 10 a ('127.0.0.1', 52966)
+2025-05-24 07:57:34,340 - WARNING - Pacchetto inatteso (seq: 10), reinviato ACK 10 a ('127.0.0.1', 52966)
+2025-05-24 07:57:34,340 - INFO - Pacchetto 11 ricevuto correttamente
+2025-05-24 07:57:34,340 - INFO - Invio ACK per il pacchetto 11
+2025-05-24 07:57:36,342 - INFO - Inviato ACK 11 a ('127.0.0.1', 52966)
+2025-05-24 07:57:36,343 - INFO - In attesa del pacchetto 12...
+2025-05-24 07:57:36,344 - INFO - Pacchetto 12 ricevuto correttamente
+2025-05-24 07:57:36,345 - INFO - Invio ACK per il pacchetto 12
+2025-05-24 07:57:38,346 - INFO - Inviato ACK 12 a ('127.0.0.1', 52966)
+2025-05-24 07:57:38,346 - INFO - In attesa del pacchetto 13...
+2025-05-24 07:57:38,346 - INFO - Pacchetto 13 ricevuto correttamente
+2025-05-24 07:57:38,346 - INFO - Invio ACK per il pacchetto 13
+2025-05-24 07:57:40,347 - INFO - Inviato ACK 13 a ('127.0.0.1', 52966)
+2025-05-24 07:57:40,347 - INFO - In attesa del pacchetto 14...
+2025-05-24 07:57:40,347 - WARNING - Pacchetto inatteso (seq: 11), reinviato ACK 13 a ('127.0.0.1', 52966)
+2025-05-24 07:57:40,348 - WARNING - Pacchetto inatteso (seq: 12), reinviato ACK 13 a ('127.0.0.1', 52966)
+2025-05-24 07:57:40,348 - WARNING - Pacchetto inatteso (seq: 13), reinviato ACK 13 a ('127.0.0.1', 52966)
+2025-05-24 07:57:40,348 - INFO - Pacchetto 14 ricevuto correttamente
+2025-05-24 07:57:40,348 - INFO - Invio ACK per il pacchetto 14
+2025-05-24 07:57:42,349 - INFO - Inviato ACK 14 a ('127.0.0.1', 52966)
+2025-05-24 07:57:42,349 - INFO - In attesa del pacchetto 15...
+2025-05-24 07:57:42,350 - INFO - Pacchetto 15 ricevuto correttamente
+2025-05-24 07:57:42,350 - INFO - Invio ACK per il pacchetto 15
+2025-05-24 07:57:44,351 - INFO - Inviato ACK 15 a ('127.0.0.1', 52966)
+2025-05-24 07:57:44,352 - INFO - In attesa del pacchetto 16...
+2025-05-24 07:57:44,353 - INFO - Pacchetto 16 ricevuto correttamente
+2025-05-24 07:57:44,354 - INFO - Invio ACK per il pacchetto 16
+2025-05-24 07:57:46,356 - INFO - Inviato ACK 16 a ('127.0.0.1', 52966)
+2025-05-24 07:57:46,357 - INFO - In attesa del pacchetto 17...
+2025-05-24 07:57:46,357 - WARNING - Pacchetto inatteso (seq: 14), reinviato ACK 16 a ('127.0.0.1', 52966)
+2025-05-24 07:57:46,358 - WARNING - Pacchetto inatteso (seq: 15), reinviato ACK 16 a ('127.0.0.1', 52966)
+2025-05-24 07:57:46,358 - WARNING - Pacchetto inatteso (seq: 16), reinviato ACK 16 a ('127.0.0.1', 52966)
+2025-05-24 07:57:46,358 - INFO - Pacchetto 17 ricevuto correttamente
+2025-05-24 07:57:46,358 - INFO - Invio ACK per il pacchetto 17
+2025-05-24 07:57:48,359 - INFO - Inviato ACK 17 a ('127.0.0.1', 52966)
+2025-05-24 07:57:48,360 - INFO - In attesa del pacchetto 18...
+2025-05-24 07:57:48,360 - INFO - Pacchetto 18 ricevuto correttamente
+2025-05-24 07:57:48,361 - INFO - Invio ACK per il pacchetto 18
+2025-05-24 07:57:50,361 - INFO - Inviato ACK 18 a ('127.0.0.1', 52966)
+2025-05-24 07:57:50,361 - INFO - In attesa del pacchetto 19...
+2025-05-24 07:57:50,362 - INFO - Pacchetto 19 ricevuto correttamente
+2025-05-24 07:57:50,362 - INFO - Invio ACK per il pacchetto 19
+2025-05-24 07:57:52,363 - INFO - Inviato ACK 19 a ('127.0.0.1', 52966)
+2025-05-24 07:57:52,363 - INFO - In attesa del pacchetto 20...
+2025-05-24 07:57:52,364 - WARNING - Pacchetto inatteso (seq: 17), reinviato ACK 19 a ('127.0.0.1', 52966)
+2025-05-24 07:57:52,364 - WARNING - Pacchetto inatteso (seq: 18), reinviato ACK 19 a ('127.0.0.1', 52966)
+2025-05-24 07:57:52,365 - WARNING - Pacchetto inatteso (seq: 19), reinviato ACK 19 a ('127.0.0.1', 52966)
+2025-05-24 07:57:52,365 - INFO - Pacchetto 20 ricevuto correttamente
+2025-05-24 07:57:52,365 - INFO - Invio ACK per il pacchetto 20
+2025-05-24 07:57:54,367 - INFO - Inviato ACK 20 a ('127.0.0.1', 52966)
+2025-05-24 07:57:54,367 - INFO - In attesa del pacchetto 21...
+2025-05-24 07:57:54,368 - INFO - Pacchetto 21 ricevuto correttamente
+2025-05-24 07:57:54,368 - INFO - Invio ACK per il pacchetto 21
+2025-05-24 07:57:56,368 - INFO - Inviato ACK 21 a ('127.0.0.1', 52966)
+2025-05-24 07:57:56,369 - INFO - In attesa del pacchetto 22...
+2025-05-24 07:57:56,369 - INFO - Pacchetto 22 ricevuto correttamente
+2025-05-24 07:57:56,369 - INFO - Invio ACK per il pacchetto 22
+2025-05-24 07:57:58,370 - INFO - Inviato ACK 22 a ('127.0.0.1', 52966)
+2025-05-24 07:57:58,371 - INFO - In attesa del pacchetto 23...
+2025-05-24 07:57:58,372 - WARNING - Pacchetto inatteso (seq: 20), reinviato ACK 22 a ('127.0.0.1', 52966)
+2025-05-24 07:57:58,372 - WARNING - Pacchetto inatteso (seq: 21), reinviato ACK 22 a ('127.0.0.1', 52966)
+2025-05-24 07:57:58,372 - WARNING - Pacchetto inatteso (seq: 22), reinviato ACK 22 a ('127.0.0.1', 52966)
+2025-05-24 07:57:58,373 - INFO - Pacchetto 23 ricevuto correttamente
+2025-05-24 07:57:58,373 - INFO - Invio ACK per il pacchetto 23
+2025-05-24 07:58:00,374 - INFO - Inviato ACK 23 a ('127.0.0.1', 52966)
+2025-05-24 07:58:00,375 - INFO - In attesa del pacchetto 24...
+2025-05-24 07:58:00,375 - INFO - Pacchetto 24 ricevuto correttamente
+2025-05-24 07:58:00,375 - INFO - Invio ACK per il pacchetto 24
+2025-05-24 07:58:02,376 - INFO - Inviato ACK 24 a ('127.0.0.1', 52966)
+2025-05-24 07:58:02,377 - INFO - In attesa del pacchetto 25...
+2025-05-24 07:58:02,378 - INFO - Pacchetto 25 ricevuto correttamente
+2025-05-24 07:58:02,379 - INFO - Invio ACK per il pacchetto 25
+2025-05-24 07:58:04,380 - INFO - Inviato ACK 25 a ('127.0.0.1', 52966)
+2025-05-24 07:58:04,381 - INFO - In attesa del pacchetto 26...
+2025-05-24 07:58:04,381 - WARNING - Pacchetto inatteso (seq: 23), reinviato ACK 25 a ('127.0.0.1', 52966)
+2025-05-24 07:58:04,382 - WARNING - Pacchetto inatteso (seq: 24), reinviato ACK 25 a ('127.0.0.1', 52966)
+2025-05-24 07:58:04,382 - WARNING - Pacchetto inatteso (seq: 25), reinviato ACK 25 a ('127.0.0.1', 52966)
+2025-05-24 07:58:04,382 - INFO - Pacchetto 26 ricevuto correttamente
+2025-05-24 07:58:04,382 - INFO - Invio ACK per il pacchetto 26
+2025-05-24 07:58:06,384 - INFO - Inviato ACK 26 a ('127.0.0.1', 52966)
+2025-05-24 07:58:06,384 - INFO - In attesa del pacchetto 27...
+2025-05-24 07:58:06,384 - INFO - Pacchetto 27 ricevuto correttamente
+2025-05-24 07:58:06,385 - INFO - Invio ACK per il pacchetto 27
+2025-05-24 07:58:08,387 - INFO - Inviato ACK 27 a ('127.0.0.1', 52966)
+2025-05-24 07:58:08,387 - INFO - In attesa del pacchetto 28...
+2025-05-24 07:58:08,388 - INFO - Pacchetto 28 ricevuto correttamente
+2025-05-24 07:58:08,388 - INFO - Invio ACK per il pacchetto 28
+2025-05-24 07:58:10,388 - INFO - Inviato ACK 28 a ('127.0.0.1', 52966)
+2025-05-24 07:58:10,389 - INFO - In attesa del pacchetto 29...
+2025-05-24 07:58:10,389 - WARNING - Pacchetto inatteso (seq: 26), reinviato ACK 28 a ('127.0.0.1', 52966)
+2025-05-24 07:58:10,389 - WARNING - Pacchetto inatteso (seq: 27), reinviato ACK 28 a ('127.0.0.1', 52966)
+2025-05-24 07:58:10,389 - WARNING - Pacchetto inatteso (seq: 28), reinviato ACK 28 a ('127.0.0.1', 52966)
+2025-05-24 07:58:10,389 - INFO - Pacchetto 29 ricevuto correttamente
+2025-05-24 07:58:10,389 - INFO - Invio ACK per il pacchetto 29
+2025-05-24 07:58:12,391 - INFO - Inviato ACK 29 a ('127.0.0.1', 52966)
+2025-05-24 07:58:12,391 - INFO - Chiusura del socket

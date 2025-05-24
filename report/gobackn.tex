@@ -70,6 +70,8 @@ Gli obiettivi specifici dell’implementazione includono:
 \end{itemize}
 
 \chapter{Progettazione}
+
+\section{Discussione sull'implementazione}
 Per l'implementazione ho voluto dividere il lavoro tra \texttt{client} e server,
 dove sono rispettivamente mittente e destinatario. Il client viene diviso in tre thread,
 che hanno i seguenti ruoli:
@@ -83,8 +85,15 @@ La finestra di trasmissione è definita tramite una costante che stabilisce quan
 Per simulare la perdita dei pacchetti si è utilizzata una costante
 \texttt{LOSS\_PROBABILITY}, che in combinazione con \texttt{random}
 permette a \texttt{send\_pack} di non spedire in modo casuale alcuni pacchetti.\\
-Per non mancare di generalità di seguito viene riportato il diagramma di flusso:
 
+\section{Diagramma di flusso}
+Per non mancare di generalità di seguito viene riportato il diagramma di flusso:
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{img/ClientGoBackN.pdf}
+  \caption{Diagramma di flusso}
+  \label{fig:client}
+\end{figure}
 
 
 \chapter{Conclusione}
@@ -99,6 +108,7 @@ a chiedere di quel pacchetto, succede che viene lanciata un'eccezione
 \textit{WinError 10022}, che rappresenta il fatto che il server non abbia mandato nulla.
 Questo tipo di errore evidenzia l’inaffidabilità della 
 comunicazione basata su UDP, poiché non viene garantita 
-alcuna connessione o conferma di ricezione tra le due entità.
+alcuna connessione o conferma di ricezione tra le due entità, al contrario del TCP che invece
+esegue un \textit{Three-Ways-Handshake} per garantire connessione tra le entità.
 
 \end{document}

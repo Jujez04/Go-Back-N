@@ -6,7 +6,7 @@ LIMIT_PACK = 30
 
 logging.basicConfig(
     filename='server.log',
-    filemode='w',
+    filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
@@ -16,7 +16,7 @@ sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
 
 # Associamo il socket alla porta 12000
 server_address = ('localhost', 12000)
-logging.info('\n\r Associazione %s porta %s' % server_address)
+logging.info('Associazione %s porta %s' % server_address)
 sock.bind(server_address)
 
 expected_seq_num = 0
@@ -25,7 +25,7 @@ last_seq_printed = -1
 try:
     while expected_seq_num < LIMIT_PACK:
         if last_seq_printed != expected_seq_num:
-            logging.info(f'\nIn attesa del pacchetto {expected_seq_num}...')
+            logging.info(f'In attesa del pacchetto {expected_seq_num}...')
             last_seq_printed = expected_seq_num
         # Ricezione del pacchetto
         data, address = sock.recvfrom(4096)

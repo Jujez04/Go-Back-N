@@ -18,7 +18,7 @@
 *.dvi
 *.fls
 *.fdb_latexmk
-*.log
+/report/*.log
 *.nav
 *.out
 *.snm
@@ -32,4 +32,5 @@
 *.ind
 *.idx
 *.gz
-*.pdf
+/report/*.pdf
+/report/img/*.pdf

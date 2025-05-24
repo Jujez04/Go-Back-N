@@ -13,7 +13,7 @@ sock = sk.socket(sk.AF_INET, sk.SOCK_DGRAM)
 
 logging.basicConfig(
     filename='client.log',
-    filemode='w',
+    filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )

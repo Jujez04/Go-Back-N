@@ -1,0 +1,826 @@
+2025-05-24 07:48:33,645 - INFO - Invio Pacchetto 0
+2025-05-24 07:48:34,149 - INFO - Invio Pacchetto 1
+2025-05-24 07:48:34,652 - INFO - Invio Pacchetto 2
+2025-05-24 07:48:35,650 - INFO - Ricevuto ACK 0
+2025-05-24 07:48:35,650 - INFO - Finestra aggiornata: base = 1, next_id_pack = 3
+2025-05-24 07:48:35,656 - INFO - Invio Pacchetto 3
+2025-05-24 07:48:37,651 - INFO - Timeout raggiunto! Ritrasmetto da 1 a 3
+2025-05-24 07:48:37,652 - INFO - Invio Pacchetto 1
+2025-05-24 07:48:37,654 - INFO - Invio Pacchetto 2
+2025-05-24 07:48:37,657 - INFO - Invio Pacchetto 3
+2025-05-24 07:48:37,659 - INFO - Ricevuto ACK 1
+2025-05-24 07:48:37,660 - INFO - Finestra aggiornata: base = 2, next_id_pack = 4
+2025-05-24 07:48:37,660 - INFO - Invio Pacchetto 4
+2025-05-24 07:48:39,656 - INFO - Ricevuto ACK 2
+2025-05-24 07:48:39,656 - INFO - Finestra aggiornata: base = 3, next_id_pack = 5
+2025-05-24 07:48:39,666 - INFO - Invio Pacchetto 5
+2025-05-24 07:48:41,657 - INFO - Ricevuto ACK 3
+2025-05-24 07:48:41,657 - INFO - Finestra aggiornata: base = 4, next_id_pack = 6
+2025-05-24 07:48:41,669 - INFO - Invio Pacchetto 6
+2025-05-24 07:48:42,658 - WARNING - ACK duplicato o obsoleto ignorato: 3
+2025-05-24 07:48:43,659 - WARNING - ACK duplicato o obsoleto ignorato: 3
+2025-05-24 07:48:43,665 - INFO - Timeout raggiunto! Ritrasmetto da 4 a 6
+2025-05-24 07:48:44,173 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 4 perso
+2025-05-24 07:48:44,173 - INFO - Invio Pacchetto 5
+2025-05-24 07:48:44,174 - INFO - Invio Pacchetto 6
+2025-05-24 07:48:44,659 - WARNING - ACK duplicato o obsoleto ignorato: 3
+2025-05-24 07:48:45,661 - INFO - Ricevuto ACK 4
+2025-05-24 07:48:45,662 - INFO - Finestra aggiornata: base = 5, next_id_pack = 7
+2025-05-24 07:48:45,958 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:48:46,663 - INFO - Ricevuto ACK 5
+2025-05-24 07:48:46,664 - INFO - Finestra aggiornata: base = 6, next_id_pack = 8
+2025-05-24 07:48:46,960 - INFO - Invio Pacchetto 8
+2025-05-24 07:48:47,665 - INFO - Ricevuto ACK 6
+2025-05-24 07:48:47,666 - INFO - Finestra aggiornata: base = 7, next_id_pack = 9
+2025-05-24 07:48:47,964 - INFO - Invio Pacchetto 9
+2025-05-24 07:48:48,667 - WARNING - ACK duplicato o obsoleto ignorato: 6
+2025-05-24 07:48:49,668 - WARNING - ACK duplicato o obsoleto ignorato: 6
+2025-05-24 07:48:49,683 - INFO - Timeout raggiunto! Ritrasmetto da 7 a 9
+2025-05-24 07:48:49,683 - INFO - Invio Pacchetto 7
+2025-05-24 07:48:49,686 - INFO - Invio Pacchetto 8
+2025-05-24 07:48:49,923 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:48:50,669 - WARNING - ACK duplicato o obsoleto ignorato: 6
+2025-05-24 07:48:51,671 - WARNING - ACK duplicato o obsoleto ignorato: 6
+2025-05-24 07:48:51,926 - INFO - Timeout raggiunto! Ritrasmetto da 7 a 9
+2025-05-24 07:48:52,753 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:48:52,754 - INFO - Invio Pacchetto 8
+2025-05-24 07:48:52,756 - INFO - Invio Pacchetto 9
+2025-05-24 07:48:52,759 - INFO - Ricevuto ACK 7
+2025-05-24 07:48:52,759 - INFO - Finestra aggiornata: base = 8, next_id_pack = 10
+2025-05-24 07:48:53,998 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 10 perso
+2025-05-24 07:48:53,999 - INFO - Ricevuto ACK 8
+2025-05-24 07:48:54,000 - INFO - Finestra aggiornata: base = 9, next_id_pack = 11
+2025-05-24 07:48:54,571 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:48:55,001 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:48:56,003 - INFO - Ricevuto ACK 9
+2025-05-24 07:48:56,003 - INFO - Finestra aggiornata: base = 10, next_id_pack = 12
+2025-05-24 07:48:56,583 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 12 perso
+2025-05-24 07:48:58,086 - INFO - Timeout raggiunto! Ritrasmetto da 10 a 12
+2025-05-24 07:48:58,087 - INFO - Invio Pacchetto 10
+2025-05-24 07:48:58,089 - INFO - Invio Pacchetto 11
+2025-05-24 07:48:58,091 - INFO - Invio Pacchetto 12
+2025-05-24 07:49:00,092 - INFO - Ricevuto ACK 10
+2025-05-24 07:49:00,092 - INFO - Finestra aggiornata: base = 11, next_id_pack = 13
+2025-05-24 07:49:00,590 - INFO - Invio Pacchetto 13
+2025-05-24 07:49:02,095 - INFO - Ricevuto ACK 11
+2025-05-24 07:49:02,095 - INFO - Finestra aggiornata: base = 12, next_id_pack = 14
+2025-05-24 07:49:03,334 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:49:04,097 - INFO - Ricevuto ACK 12
+2025-05-24 07:49:04,097 - INFO - Finestra aggiornata: base = 13, next_id_pack = 15
+2025-05-24 07:49:04,336 - INFO - Invio Pacchetto 15
+2025-05-24 07:49:06,099 - INFO - Ricevuto ACK 13
+2025-05-24 07:49:06,100 - INFO - Finestra aggiornata: base = 14, next_id_pack = 16
+2025-05-24 07:49:06,425 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:49:07,101 - WARNING - ACK duplicato o obsoleto ignorato: 13
+2025-05-24 07:49:08,343 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 16
+2025-05-24 07:49:08,343 - INFO - Invio Pacchetto 14
+2025-05-24 07:49:08,345 - INFO - Invio Pacchetto 15
+2025-05-24 07:49:08,346 - INFO - Invio Pacchetto 16
+2025-05-24 07:49:10,347 - INFO - Ricevuto ACK 14
+2025-05-24 07:49:10,347 - INFO - Finestra aggiornata: base = 15, next_id_pack = 17
+2025-05-24 07:49:10,430 - INFO - Invio Pacchetto 17
+2025-05-24 07:49:12,350 - INFO - Ricevuto ACK 15
+2025-05-24 07:49:12,350 - INFO - Finestra aggiornata: base = 16, next_id_pack = 18
+2025-05-24 07:49:12,435 - INFO - Invio Pacchetto 18
+2025-05-24 07:49:14,352 - INFO - Ricevuto ACK 16
+2025-05-24 07:49:14,353 - INFO - Finestra aggiornata: base = 17, next_id_pack = 19
+2025-05-24 07:49:14,631 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 19 perso
+2025-05-24 07:49:16,355 - INFO - Ricevuto ACK 17
+2025-05-24 07:49:16,355 - INFO - Finestra aggiornata: base = 18, next_id_pack = 20
+2025-05-24 07:49:17,025 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 20 perso
+2025-05-24 07:49:18,357 - INFO - Ricevuto ACK 18
+2025-05-24 07:49:18,358 - INFO - Finestra aggiornata: base = 19, next_id_pack = 21
+2025-05-24 07:49:18,606 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 21 perso
+2025-05-24 07:49:20,610 - INFO - Timeout raggiunto! Ritrasmetto da 19 a 21
+2025-05-24 07:49:20,610 - INFO - Invio Pacchetto 19
+2025-05-24 07:49:20,611 - INFO - Invio Pacchetto 20
+2025-05-24 07:49:20,611 - INFO - Invio Pacchetto 21
+2025-05-24 07:49:22,612 - INFO - Ricevuto ACK 19
+2025-05-24 07:49:22,613 - INFO - Finestra aggiornata: base = 20, next_id_pack = 22
+2025-05-24 07:49:22,615 - INFO - Invio Pacchetto 22
+2025-05-24 07:49:24,615 - INFO - Ricevuto ACK 20
+2025-05-24 07:49:24,615 - INFO - Finestra aggiornata: base = 21, next_id_pack = 23
+2025-05-24 07:49:25,132 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 23 perso
+2025-05-24 07:49:26,617 - INFO - Ricevuto ACK 21
+2025-05-24 07:49:26,618 - INFO - Finestra aggiornata: base = 22, next_id_pack = 24
+2025-05-24 07:49:26,635 - INFO - Invio Pacchetto 24
+2025-05-24 07:49:28,620 - INFO - Ricevuto ACK 22
+2025-05-24 07:49:28,620 - INFO - Finestra aggiornata: base = 23, next_id_pack = 25
+2025-05-24 07:49:28,641 - INFO - Invio Pacchetto 25
+2025-05-24 07:49:29,622 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:49:30,624 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:49:30,640 - INFO - Timeout raggiunto! Ritrasmetto da 23 a 25
+2025-05-24 07:49:30,640 - INFO - Invio Pacchetto 23
+2025-05-24 07:49:30,643 - INFO - Invio Pacchetto 24
+2025-05-24 07:49:30,645 - INFO - Invio Pacchetto 25
+2025-05-24 07:49:32,645 - INFO - Ricevuto ACK 23
+2025-05-24 07:49:32,646 - INFO - Finestra aggiornata: base = 24, next_id_pack = 26
+2025-05-24 07:49:32,650 - INFO - Invio Pacchetto 26
+2025-05-24 07:49:34,648 - INFO - Ricevuto ACK 24
+2025-05-24 07:49:34,649 - INFO - Finestra aggiornata: base = 25, next_id_pack = 27
+2025-05-24 07:49:34,656 - INFO - Invio Pacchetto 27
+2025-05-24 07:49:36,651 - INFO - Ricevuto ACK 25
+2025-05-24 07:49:36,651 - INFO - Finestra aggiornata: base = 26, next_id_pack = 28
+2025-05-24 07:49:36,661 - INFO - Invio Pacchetto 28
+2025-05-24 07:49:38,654 - INFO - Ricevuto ACK 26
+2025-05-24 07:49:38,654 - INFO - Finestra aggiornata: base = 27, next_id_pack = 29
+2025-05-24 07:49:38,665 - INFO - Invio Pacchetto 29
+2025-05-24 07:49:40,656 - INFO - Ricevuto ACK 27
+2025-05-24 07:49:40,657 - INFO - Finestra aggiornata: base = 28, next_id_pack = 30
+2025-05-24 07:49:42,659 - INFO - Ricevuto ACK 28
+2025-05-24 07:49:42,660 - INFO - Finestra aggiornata: base = 29, next_id_pack = 30
+2025-05-24 07:49:44,661 - INFO - Ricevuto ACK 29
+2025-05-24 07:49:44,661 - INFO - Finestra aggiornata: base = 30, next_id_pack = 30
+2025-05-24 07:49:45,677 - INFO - Chiusura del socket
+2025-05-24 07:49:45,678 - INFO - Statistiche finali:
+2025-05-24 07:49:45,678 - INFO - inviati: 41
+2025-05-24 07:49:45,678 - INFO - persi: 13
+2025-05-24 07:49:45,679 - INFO - ritrasmessi: 24
+2025-05-24 07:49:45,679 - INFO - ack_ricevuti: 41
+2025-05-24 07:50:00,215 - INFO - Invio Pacchetto 0
+2025-05-24 07:50:02,220 - INFO - Ricevuto ACK 0
+2025-05-24 07:50:02,221 - INFO - Finestra aggiornata: base = 1, next_id_pack = 1
+2025-05-24 07:50:02,221 - INFO - Invio Pacchetto 1
+2025-05-24 07:50:04,227 - INFO - Ricevuto ACK 1
+2025-05-24 07:50:04,228 - INFO - Finestra aggiornata: base = 2, next_id_pack = 2
+2025-05-24 07:50:04,540 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 2 perso
+2025-05-24 07:50:06,725 - INFO - Timeout raggiunto! Ritrasmetto da 2 a 2
+2025-05-24 07:50:06,725 - INFO - Invio Pacchetto 2
+2025-05-24 07:50:08,730 - INFO - Ricevuto ACK 2
+2025-05-24 07:50:08,731 - INFO - Finestra aggiornata: base = 3, next_id_pack = 3
+2025-05-24 07:50:09,835 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:50:11,839 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 3
+2025-05-24 07:50:11,849 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:50:13,852 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 3
+2025-05-24 07:50:13,853 - INFO - Invio Pacchetto 3
+2025-05-24 07:50:15,858 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 3
+2025-05-24 07:50:16,309 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:50:16,310 - INFO - Ricevuto ACK 3
+2025-05-24 07:50:16,310 - INFO - Finestra aggiornata: base = 4, next_id_pack = 4
+2025-05-24 07:50:16,958 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 4 perso
+2025-05-24 07:50:18,961 - INFO - Timeout raggiunto! Ritrasmetto da 4 a 4
+2025-05-24 07:50:19,722 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 4 perso
+2025-05-24 07:50:21,724 - INFO - Timeout raggiunto! Ritrasmetto da 4 a 4
+2025-05-24 07:50:21,724 - INFO - Invio Pacchetto 4
+2025-05-24 07:50:23,728 - INFO - Ricevuto ACK 4
+2025-05-24 07:50:23,728 - INFO - Finestra aggiornata: base = 5, next_id_pack = 5
+2025-05-24 07:50:24,118 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:50:26,232 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 5
+2025-05-24 07:50:26,670 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:50:28,673 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 5
+2025-05-24 07:50:28,674 - INFO - Invio Pacchetto 5
+2025-05-24 07:50:30,675 - INFO - Ricevuto ACK 5
+2025-05-24 07:50:30,676 - INFO - Finestra aggiornata: base = 6, next_id_pack = 6
+2025-05-24 07:50:30,677 - INFO - Invio Pacchetto 6
+2025-05-24 07:50:32,683 - INFO - Ricevuto ACK 6
+2025-05-24 07:50:32,683 - INFO - Finestra aggiornata: base = 7, next_id_pack = 7
+2025-05-24 07:50:32,684 - INFO - Invio Pacchetto 7
+2025-05-24 07:50:34,688 - INFO - Ricevuto ACK 7
+2025-05-24 07:50:34,689 - INFO - Finestra aggiornata: base = 8, next_id_pack = 8
+2025-05-24 07:50:34,690 - INFO - Invio Pacchetto 8
+2025-05-24 07:50:36,693 - INFO - Timeout raggiunto! Ritrasmetto da 8 a 8
+2025-05-24 07:50:36,693 - INFO - Invio Pacchetto 8
+2025-05-24 07:50:36,694 - INFO - Ricevuto ACK 8
+2025-05-24 07:50:36,694 - INFO - Finestra aggiornata: base = 9, next_id_pack = 9
+2025-05-24 07:50:36,695 - INFO - Invio Pacchetto 9
+2025-05-24 07:50:37,696 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:50:38,696 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 9
+2025-05-24 07:50:39,579 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:50:39,579 - INFO - Ricevuto ACK 9
+2025-05-24 07:50:39,579 - INFO - Finestra aggiornata: base = 10, next_id_pack = 10
+2025-05-24 07:50:40,429 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 10 perso
+2025-05-24 07:50:42,433 - INFO - Timeout raggiunto! Ritrasmetto da 10 a 10
+2025-05-24 07:50:42,614 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 10 perso
+2025-05-24 07:50:44,618 - INFO - Timeout raggiunto! Ritrasmetto da 10 a 10
+2025-05-24 07:50:44,618 - INFO - Invio Pacchetto 10
+2025-05-24 07:50:46,624 - INFO - Ricevuto ACK 10
+2025-05-24 07:50:46,624 - INFO - Finestra aggiornata: base = 11, next_id_pack = 11
+2025-05-24 07:50:46,940 - INFO - Invio Pacchetto 11
+2025-05-24 07:50:48,945 - INFO - Ricevuto ACK 11
+2025-05-24 07:50:48,945 - INFO - Finestra aggiornata: base = 12, next_id_pack = 12
+2025-05-24 07:50:49,857 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 12 perso
+2025-05-24 07:50:51,861 - INFO - Timeout raggiunto! Ritrasmetto da 12 a 12
+2025-05-24 07:50:51,862 - INFO - Invio Pacchetto 12
+2025-05-24 07:50:53,867 - INFO - Ricevuto ACK 12
+2025-05-24 07:50:53,868 - INFO - Finestra aggiornata: base = 13, next_id_pack = 13
+2025-05-24 07:50:54,365 - INFO - Invio Pacchetto 13
+2025-05-24 07:50:56,370 - INFO - Ricevuto ACK 13
+2025-05-24 07:50:56,370 - INFO - Finestra aggiornata: base = 14, next_id_pack = 14
+2025-05-24 07:50:56,887 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:50:58,889 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 14
+2025-05-24 07:50:59,237 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:51:01,241 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 14
+2025-05-24 07:51:01,241 - INFO - Invio Pacchetto 14
+2025-05-24 07:51:03,247 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 14
+2025-05-24 07:51:03,820 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:51:03,821 - INFO - Ricevuto ACK 14
+2025-05-24 07:51:03,822 - INFO - Finestra aggiornata: base = 15, next_id_pack = 15
+2025-05-24 07:51:04,192 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 15 perso
+2025-05-24 07:51:06,323 - INFO - Timeout raggiunto! Ritrasmetto da 15 a 15
+2025-05-24 07:51:06,324 - INFO - Invio Pacchetto 15
+2025-05-24 07:51:08,328 - INFO - Ricevuto ACK 15
+2025-05-24 07:51:08,328 - INFO - Finestra aggiornata: base = 16, next_id_pack = 16
+2025-05-24 07:51:09,598 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:51:11,601 - INFO - Timeout raggiunto! Ritrasmetto da 16 a 16
+2025-05-24 07:51:11,601 - INFO - Invio Pacchetto 16
+2025-05-24 07:51:13,603 - INFO - Ricevuto ACK 16
+2025-05-24 07:51:13,603 - INFO - Finestra aggiornata: base = 17, next_id_pack = 17
+2025-05-24 07:51:13,603 - INFO - Invio Pacchetto 17
+2025-05-24 07:51:15,606 - INFO - Ricevuto ACK 17
+2025-05-24 07:51:15,606 - INFO - Finestra aggiornata: base = 18, next_id_pack = 18
+2025-05-24 07:51:15,607 - INFO - Invio Pacchetto 18
+2025-05-24 07:51:17,608 - INFO - Timeout raggiunto! Ritrasmetto da 18 a 18
+2025-05-24 07:51:17,609 - INFO - Invio Pacchetto 18
+2025-05-24 07:51:17,612 - INFO - Ricevuto ACK 18
+2025-05-24 07:51:17,612 - INFO - Finestra aggiornata: base = 19, next_id_pack = 19
+2025-05-24 07:51:17,612 - INFO - Invio Pacchetto 19
+2025-05-24 07:51:18,614 - WARNING - ACK duplicato o obsoleto ignorato: 18
+2025-05-24 07:51:19,616 - INFO - Ricevuto ACK 19
+2025-05-24 07:51:19,616 - INFO - Finestra aggiornata: base = 20, next_id_pack = 20
+2025-05-24 07:51:20,018 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 20 perso
+2025-05-24 07:51:22,120 - INFO - Timeout raggiunto! Ritrasmetto da 20 a 20
+2025-05-24 07:51:22,120 - INFO - Invio Pacchetto 20
+2025-05-24 07:51:24,125 - INFO - Ricevuto ACK 20
+2025-05-24 07:51:24,126 - INFO - Finestra aggiornata: base = 21, next_id_pack = 21
+2025-05-24 07:51:25,377 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 21 perso
+2025-05-24 07:51:27,381 - INFO - Timeout raggiunto! Ritrasmetto da 21 a 21
+2025-05-24 07:51:27,382 - INFO - Invio Pacchetto 21
+2025-05-24 07:51:29,388 - INFO - Ricevuto ACK 21
+2025-05-24 07:51:29,389 - INFO - Finestra aggiornata: base = 22, next_id_pack = 22
+2025-05-24 07:51:29,885 - INFO - Invio Pacchetto 22
+2025-05-24 07:51:31,890 - INFO - Ricevuto ACK 22
+2025-05-24 07:51:31,891 - INFO - Finestra aggiornata: base = 23, next_id_pack = 23
+2025-05-24 07:51:32,390 - INFO - Invio Pacchetto 23
+2025-05-24 07:51:34,394 - INFO - Ricevuto ACK 23
+2025-05-24 07:51:34,394 - INFO - Finestra aggiornata: base = 24, next_id_pack = 24
+2025-05-24 07:51:34,395 - INFO - Invio Pacchetto 24
+2025-05-24 07:51:36,399 - INFO - Ricevuto ACK 24
+2025-05-24 07:51:36,400 - INFO - Finestra aggiornata: base = 25, next_id_pack = 25
+2025-05-24 07:51:36,401 - INFO - Invio Pacchetto 25
+2025-05-24 07:51:38,405 - INFO - Ricevuto ACK 25
+2025-05-24 07:51:38,406 - INFO - Finestra aggiornata: base = 26, next_id_pack = 26
+2025-05-24 07:51:38,603 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 26 perso
+2025-05-24 07:51:40,911 - INFO - Timeout raggiunto! Ritrasmetto da 26 a 26
+2025-05-24 07:51:40,911 - INFO - Invio Pacchetto 26
+2025-05-24 07:51:42,916 - INFO - Timeout raggiunto! Ritrasmetto da 26 a 26
+2025-05-24 07:51:43,014 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 26 perso
+2025-05-24 07:51:43,014 - INFO - Ricevuto ACK 26
+2025-05-24 07:51:43,014 - INFO - Finestra aggiornata: base = 27, next_id_pack = 27
+2025-05-24 07:51:43,111 - INFO - Invio Pacchetto 27
+2025-05-24 07:51:45,116 - INFO - Ricevuto ACK 27
+2025-05-24 07:51:45,116 - INFO - Finestra aggiornata: base = 28, next_id_pack = 28
+2025-05-24 07:51:45,117 - INFO - Invio Pacchetto 28
+2025-05-24 07:51:47,123 - INFO - Ricevuto ACK 28
+2025-05-24 07:51:47,123 - INFO - Finestra aggiornata: base = 29, next_id_pack = 29
+2025-05-24 07:51:47,623 - INFO - Invio Pacchetto 29
+2025-05-24 07:51:49,625 - INFO - Ricevuto ACK 29
+2025-05-24 07:51:49,626 - INFO - Finestra aggiornata: base = 30, next_id_pack = 30
+2025-05-24 07:51:50,630 - INFO - Chiusura del socket
+2025-05-24 07:51:50,631 - INFO - Statistiche finali:
+2025-05-24 07:51:50,631 - INFO - inviati: 32
+2025-05-24 07:51:50,632 - INFO - persi: 21
+2025-05-24 07:51:50,632 - INFO - ritrasmessi: 23
+2025-05-24 07:51:50,632 - INFO - ack_ricevuti: 32
+2025-05-24 07:52:49,126 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 0 perso
+2025-05-24 07:52:50,051 - WARNING - Errore nella ricezione dell'ACK: [WinError 10022] Argomento fornito non valido
+2025-05-24 07:52:50,069 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 1 perso
+2025-05-24 07:52:50,570 - INFO - Invio Pacchetto 2
+2025-05-24 07:52:51,052 - WARNING - ACK duplicato o obsoleto ignorato: -1
+2025-05-24 07:52:51,571 - INFO - Timeout raggiunto! Ritrasmetto da 0 a 2
+2025-05-24 07:52:52,226 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 0 perso
+2025-05-24 07:52:53,174 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 1 perso
+2025-05-24 07:52:53,974 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 2 perso
+2025-05-24 07:52:55,977 - INFO - Timeout raggiunto! Ritrasmetto da 0 a 2
+2025-05-24 07:52:55,977 - INFO - Invio Pacchetto 0
+2025-05-24 07:52:56,726 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 1 perso
+2025-05-24 07:52:57,442 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 2 perso
+2025-05-24 07:52:57,982 - INFO - Ricevuto ACK 0
+2025-05-24 07:52:57,983 - INFO - Finestra aggiornata: base = 1, next_id_pack = 3
+2025-05-24 07:52:58,740 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:53:00,447 - INFO - Timeout raggiunto! Ritrasmetto da 1 a 3
+2025-05-24 07:53:00,448 - INFO - Invio Pacchetto 1
+2025-05-24 07:53:00,450 - INFO - Invio Pacchetto 2
+2025-05-24 07:53:01,333 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:53:02,453 - INFO - Ricevuto ACK 1
+2025-05-24 07:53:02,453 - INFO - Finestra aggiornata: base = 2, next_id_pack = 4
+2025-05-24 07:53:03,745 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 4 perso
+2025-05-24 07:53:04,455 - INFO - Ricevuto ACK 2
+2025-05-24 07:53:04,455 - INFO - Finestra aggiornata: base = 3, next_id_pack = 5
+2025-05-24 07:53:04,746 - INFO - Invio Pacchetto 5
+2025-05-24 07:53:05,456 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:06,750 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 5
+2025-05-24 07:53:07,058 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:53:07,058 - INFO - Invio Pacchetto 4
+2025-05-24 07:53:07,059 - INFO - Invio Pacchetto 5
+2025-05-24 07:53:07,061 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:08,062 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:09,064 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 5
+2025-05-24 07:53:09,825 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:53:09,825 - INFO - Invio Pacchetto 4
+2025-05-24 07:53:10,461 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:10,462 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:12,464 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 5
+2025-05-24 07:53:12,577 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 3 perso
+2025-05-24 07:53:12,578 - INFO - Invio Pacchetto 4
+2025-05-24 07:53:12,579 - INFO - Invio Pacchetto 5
+2025-05-24 07:53:12,580 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:13,581 - WARNING - ACK duplicato o obsoleto ignorato: 2
+2025-05-24 07:53:14,583 - INFO - Timeout raggiunto! Ritrasmetto da 3 a 5
+2025-05-24 07:53:14,584 - INFO - Invio Pacchetto 3
+2025-05-24 07:53:15,280 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 4 perso
+2025-05-24 07:53:15,282 - INFO - Invio Pacchetto 5
+2025-05-24 07:53:16,589 - INFO - Ricevuto ACK 3
+2025-05-24 07:53:16,590 - INFO - Finestra aggiornata: base = 4, next_id_pack = 6
+2025-05-24 07:53:17,593 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:17,593 - WARNING - ACK duplicato o obsoleto ignorato: 3
+2025-05-24 07:53:18,595 - INFO - Timeout raggiunto! Ritrasmetto da 4 a 6
+2025-05-24 07:53:18,596 - INFO - Invio Pacchetto 4
+2025-05-24 07:53:18,772 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:19,140 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:20,600 - INFO - Ricevuto ACK 4
+2025-05-24 07:53:20,600 - INFO - Finestra aggiornata: base = 5, next_id_pack = 7
+2025-05-24 07:53:20,642 - INFO - Invio Pacchetto 7
+2025-05-24 07:53:21,601 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:22,645 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:23,434 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:23,712 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:23,712 - INFO - Invio Pacchetto 7
+2025-05-24 07:53:23,714 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:25,716 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:25,772 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:26,752 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:26,788 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:28,792 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:29,440 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:29,441 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:29,444 - INFO - Invio Pacchetto 7
+2025-05-24 07:53:29,446 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:30,447 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:31,449 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:32,280 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:32,281 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:32,857 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:32,859 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:34,861 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:34,938 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:35,160 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:35,502 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:37,505 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:37,840 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:37,840 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:37,848 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:37,849 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:39,852 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:40,155 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:40,155 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:40,665 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:40,666 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:42,668 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:42,940 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:42,941 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:43,056 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:43,057 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:45,059 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:45,283 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:45,398 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 6 perso
+2025-05-24 07:53:46,114 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:48,117 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:48,524 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 5 perso
+2025-05-24 07:53:48,524 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:48,554 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 7 perso
+2025-05-24 07:53:48,555 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:53:50,558 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:53:50,558 - INFO - Invio Pacchetto 5
+2025-05-24 07:53:50,561 - INFO - Invio Pacchetto 6
+2025-05-24 07:53:50,563 - INFO - Invio Pacchetto 7
+2025-05-24 07:53:52,564 - INFO - Ricevuto ACK 5
+2025-05-24 07:53:52,564 - INFO - Finestra aggiornata: base = 6, next_id_pack = 8
+2025-05-24 07:53:53,020 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 8 perso
+2025-05-24 07:53:54,567 - INFO - Ricevuto ACK 6
+2025-05-24 07:53:54,567 - INFO - Finestra aggiornata: base = 7, next_id_pack = 9
+2025-05-24 07:53:55,023 - INFO - Invio Pacchetto 9
+2025-05-24 07:53:56,569 - INFO - Ricevuto ACK 7
+2025-05-24 07:53:56,570 - INFO - Finestra aggiornata: base = 8, next_id_pack = 10
+2025-05-24 07:53:57,032 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 10 perso
+2025-05-24 07:53:57,571 - WARNING - ACK duplicato o obsoleto ignorato: 7
+2025-05-24 07:53:59,036 - INFO - Timeout raggiunto! Ritrasmetto da 8 a 10
+2025-05-24 07:53:59,037 - INFO - Invio Pacchetto 8
+2025-05-24 07:53:59,153 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:53:59,154 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:01,042 - INFO - Ricevuto ACK 8
+2025-05-24 07:54:01,043 - INFO - Finestra aggiornata: base = 9, next_id_pack = 11
+2025-05-24 07:54:01,539 - INFO - Invio Pacchetto 11
+2025-05-24 07:54:02,044 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:03,045 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:03,162 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:03,758 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:54:03,758 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:04,754 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:54:04,755 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:06,758 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:06,864 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:54:07,011 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 10 perso
+2025-05-24 07:54:07,025 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:54:09,028 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:09,084 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:54:09,084 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:09,349 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:54:09,350 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:11,353 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:11,744 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:54:11,745 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:12,686 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:54:12,687 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:14,689 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:15,127 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 9 perso
+2025-05-24 07:54:15,127 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:15,130 - INFO - Invio Pacchetto 11
+2025-05-24 07:54:15,133 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:16,134 - WARNING - ACK duplicato o obsoleto ignorato: 8
+2025-05-24 07:54:17,136 - INFO - Timeout raggiunto! Ritrasmetto da 9 a 11
+2025-05-24 07:54:17,137 - INFO - Invio Pacchetto 9
+2025-05-24 07:54:17,139 - INFO - Invio Pacchetto 10
+2025-05-24 07:54:17,716 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 11 perso
+2025-05-24 07:54:19,142 - INFO - Ricevuto ACK 9
+2025-05-24 07:54:19,142 - INFO - Finestra aggiornata: base = 10, next_id_pack = 12
+2025-05-24 07:54:19,219 - INFO - Invio Pacchetto 12
+2025-05-24 07:54:21,144 - INFO - Ricevuto ACK 10
+2025-05-24 07:54:21,145 - INFO - Finestra aggiornata: base = 11, next_id_pack = 13
+2025-05-24 07:54:21,225 - INFO - Invio Pacchetto 13
+2025-05-24 07:54:22,146 - WARNING - ACK duplicato o obsoleto ignorato: 10
+2025-05-24 07:54:23,148 - WARNING - ACK duplicato o obsoleto ignorato: 10
+2025-05-24 07:54:23,232 - INFO - Timeout raggiunto! Ritrasmetto da 11 a 13
+2025-05-24 07:54:23,233 - INFO - Invio Pacchetto 11
+2025-05-24 07:54:23,235 - INFO - Invio Pacchetto 12
+2025-05-24 07:54:24,094 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 13 perso
+2025-05-24 07:54:25,238 - INFO - Ricevuto ACK 11
+2025-05-24 07:54:25,238 - INFO - Finestra aggiornata: base = 12, next_id_pack = 14
+2025-05-24 07:54:26,423 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:54:27,239 - INFO - Ricevuto ACK 12
+2025-05-24 07:54:27,239 - INFO - Finestra aggiornata: base = 13, next_id_pack = 15
+2025-05-24 07:54:27,425 - INFO - Invio Pacchetto 15
+2025-05-24 07:54:28,240 - WARNING - ACK duplicato o obsoleto ignorato: 12
+2025-05-24 07:54:29,428 - INFO - Timeout raggiunto! Ritrasmetto da 13 a 15
+2025-05-24 07:54:29,649 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 13 perso
+2025-05-24 07:54:29,650 - INFO - Invio Pacchetto 14
+2025-05-24 07:54:30,227 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 15 perso
+2025-05-24 07:54:30,227 - WARNING - ACK duplicato o obsoleto ignorato: 12
+2025-05-24 07:54:32,231 - INFO - Timeout raggiunto! Ritrasmetto da 13 a 15
+2025-05-24 07:54:33,220 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 13 perso
+2025-05-24 07:54:33,642 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:54:33,642 - INFO - Invio Pacchetto 15
+2025-05-24 07:54:33,646 - WARNING - ACK duplicato o obsoleto ignorato: 12
+2025-05-24 07:54:35,648 - INFO - Timeout raggiunto! Ritrasmetto da 13 a 15
+2025-05-24 07:54:35,649 - INFO - Invio Pacchetto 13
+2025-05-24 07:54:36,523 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 14 perso
+2025-05-24 07:54:36,524 - INFO - Invio Pacchetto 15
+2025-05-24 07:54:37,655 - INFO - Ricevuto ACK 13
+2025-05-24 07:54:37,655 - INFO - Finestra aggiornata: base = 14, next_id_pack = 16
+2025-05-24 07:54:38,280 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:54:38,657 - WARNING - ACK duplicato o obsoleto ignorato: 13
+2025-05-24 07:54:39,783 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 16
+2025-05-24 07:54:39,783 - INFO - Invio Pacchetto 14
+2025-05-24 07:54:39,785 - INFO - Invio Pacchetto 15
+2025-05-24 07:54:40,030 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:54:41,786 - INFO - Ricevuto ACK 14
+2025-05-24 07:54:41,786 - INFO - Finestra aggiornata: base = 15, next_id_pack = 17
+2025-05-24 07:54:42,285 - INFO - Invio Pacchetto 17
+2025-05-24 07:54:43,787 - INFO - Ricevuto ACK 15
+2025-05-24 07:54:43,788 - INFO - Finestra aggiornata: base = 16, next_id_pack = 18
+2025-05-24 07:54:44,394 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:54:44,790 - WARNING - ACK duplicato o obsoleto ignorato: 15
+2025-05-24 07:54:45,898 - INFO - Timeout raggiunto! Ritrasmetto da 16 a 18
+2025-05-24 07:54:46,193 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:54:46,494 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 17 perso
+2025-05-24 07:54:46,494 - INFO - Invio Pacchetto 18
+2025-05-24 07:54:46,497 - WARNING - ACK duplicato o obsoleto ignorato: 15
+2025-05-24 07:54:48,499 - INFO - Timeout raggiunto! Ritrasmetto da 16 a 18
+2025-05-24 07:54:49,301 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 16 perso
+2025-05-24 07:54:49,301 - INFO - Invio Pacchetto 17
+2025-05-24 07:54:50,033 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:54:50,034 - WARNING - ACK duplicato o obsoleto ignorato: 15
+2025-05-24 07:54:52,036 - INFO - Timeout raggiunto! Ritrasmetto da 16 a 18
+2025-05-24 07:54:52,037 - INFO - Invio Pacchetto 16
+2025-05-24 07:54:52,308 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 17 perso
+2025-05-24 07:54:52,622 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:54:54,043 - INFO - Ricevuto ACK 16
+2025-05-24 07:54:54,043 - INFO - Finestra aggiornata: base = 17, next_id_pack = 19
+2025-05-24 07:54:54,124 - INFO - Invio Pacchetto 19
+2025-05-24 07:54:55,044 - WARNING - ACK duplicato o obsoleto ignorato: 16
+2025-05-24 07:54:56,129 - INFO - Timeout raggiunto! Ritrasmetto da 17 a 19
+2025-05-24 07:54:56,453 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 17 perso
+2025-05-24 07:54:56,661 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:54:56,662 - INFO - Invio Pacchetto 19
+2025-05-24 07:54:56,665 - WARNING - ACK duplicato o obsoleto ignorato: 16
+2025-05-24 07:54:58,667 - INFO - Timeout raggiunto! Ritrasmetto da 17 a 19
+2025-05-24 07:54:58,668 - INFO - Invio Pacchetto 17
+2025-05-24 07:54:59,077 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:54:59,077 - INFO - Invio Pacchetto 19
+2025-05-24 07:55:00,673 - INFO - Ricevuto ACK 17
+2025-05-24 07:55:00,673 - INFO - Finestra aggiornata: base = 18, next_id_pack = 20
+2025-05-24 07:55:01,082 - INFO - Invio Pacchetto 20
+2025-05-24 07:55:01,674 - WARNING - ACK duplicato o obsoleto ignorato: 17
+2025-05-24 07:55:02,675 - WARNING - ACK duplicato o obsoleto ignorato: 17
+2025-05-24 07:55:03,087 - INFO - Timeout raggiunto! Ritrasmetto da 18 a 20
+2025-05-24 07:55:03,151 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:55:03,152 - INFO - Invio Pacchetto 19
+2025-05-24 07:55:03,680 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 20 perso
+2025-05-24 07:55:03,681 - WARNING - ACK duplicato o obsoleto ignorato: 17
+2025-05-24 07:55:05,683 - INFO - Timeout raggiunto! Ritrasmetto da 18 a 20
+2025-05-24 07:55:05,710 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:55:06,210 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 19 perso
+2025-05-24 07:55:06,921 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 20 perso
+2025-05-24 07:55:08,924 - INFO - Timeout raggiunto! Ritrasmetto da 18 a 20
+2025-05-24 07:55:09,705 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 18 perso
+2025-05-24 07:55:09,800 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 19 perso
+2025-05-24 07:55:09,925 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 20 perso
+2025-05-24 07:55:11,929 - INFO - Timeout raggiunto! Ritrasmetto da 18 a 20
+2025-05-24 07:55:11,929 - INFO - Invio Pacchetto 18
+2025-05-24 07:55:11,932 - INFO - Invio Pacchetto 19
+2025-05-24 07:55:11,934 - INFO - Invio Pacchetto 20
+2025-05-24 07:55:13,935 - INFO - Ricevuto ACK 18
+2025-05-24 07:55:13,935 - INFO - Finestra aggiornata: base = 19, next_id_pack = 21
+2025-05-24 07:55:14,830 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 21 perso
+2025-05-24 07:55:15,937 - INFO - Ricevuto ACK 19
+2025-05-24 07:55:15,938 - INFO - Finestra aggiornata: base = 20, next_id_pack = 22
+2025-05-24 07:55:16,333 - INFO - Invio Pacchetto 22
+2025-05-24 07:55:17,939 - INFO - Ricevuto ACK 20
+2025-05-24 07:55:17,939 - INFO - Finestra aggiornata: base = 21, next_id_pack = 23
+2025-05-24 07:55:18,372 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 23 perso
+2025-05-24 07:55:18,940 - WARNING - ACK duplicato o obsoleto ignorato: 20
+2025-05-24 07:55:20,339 - INFO - Timeout raggiunto! Ritrasmetto da 21 a 23
+2025-05-24 07:55:20,339 - INFO - Invio Pacchetto 21
+2025-05-24 07:55:20,939 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 22 perso
+2025-05-24 07:55:20,940 - INFO - Invio Pacchetto 23
+2025-05-24 07:55:22,341 - INFO - Ricevuto ACK 21
+2025-05-24 07:55:22,341 - INFO - Finestra aggiornata: base = 22, next_id_pack = 24
+2025-05-24 07:55:22,637 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 24 perso
+2025-05-24 07:55:23,342 - WARNING - ACK duplicato o obsoleto ignorato: 21
+2025-05-24 07:55:24,641 - INFO - Timeout raggiunto! Ritrasmetto da 22 a 24
+2025-05-24 07:55:25,197 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 22 perso
+2025-05-24 07:55:25,198 - INFO - Invio Pacchetto 23
+2025-05-24 07:55:25,201 - INFO - Invio Pacchetto 24
+2025-05-24 07:55:25,203 - WARNING - ACK duplicato o obsoleto ignorato: 21
+2025-05-24 07:55:26,204 - WARNING - ACK duplicato o obsoleto ignorato: 21
+2025-05-24 07:55:27,207 - INFO - Timeout raggiunto! Ritrasmetto da 22 a 24
+2025-05-24 07:55:27,208 - INFO - Invio Pacchetto 22
+2025-05-24 07:55:27,580 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 23 perso
+2025-05-24 07:55:28,448 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 24 perso
+2025-05-24 07:55:29,213 - INFO - Ricevuto ACK 22
+2025-05-24 07:55:29,215 - INFO - Finestra aggiornata: base = 23, next_id_pack = 25
+2025-05-24 07:55:29,451 - INFO - Invio Pacchetto 25
+2025-05-24 07:55:30,216 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:55:31,452 - INFO - Timeout raggiunto! Ritrasmetto da 23 a 25
+2025-05-24 07:55:32,097 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 23 perso
+2025-05-24 07:55:32,097 - INFO - Invio Pacchetto 24
+2025-05-24 07:55:32,119 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 25 perso
+2025-05-24 07:55:32,120 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:55:34,123 - INFO - Timeout raggiunto! Ritrasmetto da 23 a 25
+2025-05-24 07:55:34,123 - INFO - Invio Pacchetto 23
+2025-05-24 07:55:34,409 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 24 perso
+2025-05-24 07:55:34,409 - INFO - Invio Pacchetto 25
+2025-05-24 07:55:36,128 - INFO - Ricevuto ACK 23
+2025-05-24 07:55:36,129 - INFO - Finestra aggiornata: base = 24, next_id_pack = 26
+2025-05-24 07:55:36,415 - INFO - Invio Pacchetto 26
+2025-05-24 07:55:37,130 - WARNING - ACK duplicato o obsoleto ignorato: 23
+2025-05-24 07:55:38,130 - WARNING - ACK duplicato o obsoleto ignorato: 23
+2025-05-24 07:55:38,420 - INFO - Timeout raggiunto! Ritrasmetto da 24 a 26
+2025-05-24 07:55:39,020 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 24 perso
+2025-05-24 07:55:39,021 - INFO - Invio Pacchetto 25
+2025-05-24 07:55:39,023 - INFO - Invio Pacchetto 26
+2025-05-24 07:55:39,132 - WARNING - ACK duplicato o obsoleto ignorato: 23
+2025-05-24 07:55:40,134 - WARNING - ACK duplicato o obsoleto ignorato: 23
+2025-05-24 07:55:41,028 - INFO - Timeout raggiunto! Ritrasmetto da 24 a 26
+2025-05-24 07:55:41,319 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 24 perso
+2025-05-24 07:55:41,399 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 25 perso
+2025-05-24 07:55:41,639 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 26 perso
+2025-05-24 07:55:43,642 - INFO - Timeout raggiunto! Ritrasmetto da 24 a 26
+2025-05-24 07:55:43,643 - INFO - Invio Pacchetto 24
+2025-05-24 07:55:44,593 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 25 perso
+2025-05-24 07:55:45,167 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 26 perso
+2025-05-24 07:55:45,648 - INFO - Ricevuto ACK 24
+2025-05-24 07:55:45,648 - INFO - Finestra aggiornata: base = 25, next_id_pack = 27
+2025-05-24 07:55:45,669 - INFO - Invio Pacchetto 27
+2025-05-24 07:55:46,649 - WARNING - ACK duplicato o obsoleto ignorato: 24
+2025-05-24 07:55:47,671 - INFO - Timeout raggiunto! Ritrasmetto da 25 a 27
+2025-05-24 07:55:47,671 - INFO - Invio Pacchetto 25
+2025-05-24 07:55:47,706 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 26 perso
+2025-05-24 07:55:48,299 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 27 perso
+2025-05-24 07:55:49,676 - INFO - Ricevuto ACK 25
+2025-05-24 07:55:49,676 - INFO - Finestra aggiornata: base = 26, next_id_pack = 28
+2025-05-24 07:55:50,718 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 28 perso
+2025-05-24 07:55:51,721 - INFO - Timeout raggiunto! Ritrasmetto da 26 a 28
+2025-05-24 07:55:51,721 - INFO - Invio Pacchetto 26
+2025-05-24 07:55:52,033 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 27 perso
+2025-05-24 07:55:52,033 - INFO - Invio Pacchetto 28
+2025-05-24 07:55:53,722 - INFO - Ricevuto ACK 26
+2025-05-24 07:55:53,722 - INFO - Finestra aggiornata: base = 27, next_id_pack = 29
+2025-05-24 07:55:53,723 - INFO - Invio Pacchetto 29
+2025-05-24 07:55:54,724 - WARNING - ACK duplicato o obsoleto ignorato: 26
+2025-05-24 07:55:55,726 - WARNING - ACK duplicato o obsoleto ignorato: 26
+2025-05-24 07:55:56,039 - INFO - Timeout raggiunto! Ritrasmetto da 27 a 29
+2025-05-24 07:55:56,806 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 27 perso
+2025-05-24 07:55:56,806 - INFO - Invio Pacchetto 28
+2025-05-24 07:55:56,961 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:55:56,962 - WARNING - ACK duplicato o obsoleto ignorato: 26
+2025-05-24 07:55:58,965 - INFO - Timeout raggiunto! Ritrasmetto da 27 a 29
+2025-05-24 07:55:59,894 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 27 perso
+2025-05-24 07:55:59,894 - INFO - Invio Pacchetto 28
+2025-05-24 07:56:00,653 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:56:00,654 - WARNING - ACK duplicato o obsoleto ignorato: 26
+2025-05-24 07:56:02,655 - INFO - Timeout raggiunto! Ritrasmetto da 27 a 29
+2025-05-24 07:56:03,542 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 27 perso
+2025-05-24 07:56:04,369 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 28 perso
+2025-05-24 07:56:05,199 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:56:07,202 - INFO - Timeout raggiunto! Ritrasmetto da 27 a 29
+2025-05-24 07:56:07,202 - INFO - Invio Pacchetto 27
+2025-05-24 07:56:07,915 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 28 perso
+2025-05-24 07:56:07,916 - INFO - Invio Pacchetto 29
+2025-05-24 07:56:09,205 - INFO - Ricevuto ACK 27
+2025-05-24 07:56:09,206 - INFO - Finestra aggiornata: base = 28, next_id_pack = 30
+2025-05-24 07:56:10,207 - WARNING - ACK duplicato o obsoleto ignorato: 27
+2025-05-24 07:56:11,421 - INFO - Timeout raggiunto! Ritrasmetto da 28 a 29
+2025-05-24 07:56:12,266 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 28 perso
+2025-05-24 07:56:12,267 - INFO - Invio Pacchetto 29
+2025-05-24 07:56:12,269 - WARNING - ACK duplicato o obsoleto ignorato: 27
+2025-05-24 07:56:14,272 - INFO - Timeout raggiunto! Ritrasmetto da 28 a 29
+2025-05-24 07:56:15,242 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 28 perso
+2025-05-24 07:56:15,789 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:56:17,793 - INFO - Timeout raggiunto! Ritrasmetto da 28 a 29
+2025-05-24 07:56:17,794 - INFO - Invio Pacchetto 28
+2025-05-24 07:56:17,925 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:56:19,798 - INFO - Ricevuto ACK 28
+2025-05-24 07:56:19,799 - INFO - Finestra aggiornata: base = 29, next_id_pack = 30
+2025-05-24 07:56:21,931 - INFO - Timeout raggiunto! Ritrasmetto da 29 a 29
+2025-05-24 07:56:22,205 - WARNING - [SIMULAZIONE PERDITA] Pacchetto 29 perso
+2025-05-24 07:56:24,208 - INFO - Timeout raggiunto! Ritrasmetto da 29 a 29
+2025-05-24 07:56:24,209 - INFO - Invio Pacchetto 29
+2025-05-24 07:56:26,214 - INFO - Ricevuto ACK 29
+2025-05-24 07:56:26,214 - INFO - Finestra aggiornata: base = 30, next_id_pack = 30
+2025-05-24 07:56:27,438 - INFO - Chiusura del socket
+2025-05-24 07:56:27,439 - INFO - Statistiche finali:
+2025-05-24 07:56:27,439 - INFO - inviati: 86
+2025-05-24 07:56:27,440 - INFO - persi: 114
+2025-05-24 07:56:27,440 - INFO - ritrasmessi: 170
+2025-05-24 07:56:27,440 - INFO - ack_ricevuti: 86
+2025-05-24 07:57:12,307 - INFO - Invio Pacchetto 0
+2025-05-24 07:57:12,810 - INFO - Invio Pacchetto 1
+2025-05-24 07:57:13,312 - INFO - Invio Pacchetto 2
+2025-05-24 07:57:14,311 - INFO - Ricevuto ACK 0
+2025-05-24 07:57:14,312 - INFO - Finestra aggiornata: base = 1, next_id_pack = 3
+2025-05-24 07:57:14,317 - INFO - Invio Pacchetto 3
+2025-05-24 07:57:16,313 - INFO - Ricevuto ACK 1
+2025-05-24 07:57:16,314 - INFO - Finestra aggiornata: base = 2, next_id_pack = 4
+2025-05-24 07:57:16,321 - INFO - Invio Pacchetto 4
+2025-05-24 07:57:18,314 - INFO - Timeout raggiunto! Ritrasmetto da 2 a 4
+2025-05-24 07:57:18,315 - INFO - Invio Pacchetto 2
+2025-05-24 07:57:18,318 - INFO - Invio Pacchetto 3
+2025-05-24 07:57:18,320 - INFO - Invio Pacchetto 4
+2025-05-24 07:57:18,322 - INFO - Ricevuto ACK 2
+2025-05-24 07:57:18,323 - INFO - Finestra aggiornata: base = 3, next_id_pack = 5
+2025-05-24 07:57:18,326 - INFO - Invio Pacchetto 5
+2025-05-24 07:57:20,318 - INFO - Ricevuto ACK 3
+2025-05-24 07:57:20,319 - INFO - Finestra aggiornata: base = 4, next_id_pack = 6
+2025-05-24 07:57:20,330 - INFO - Invio Pacchetto 6
+2025-05-24 07:57:22,321 - INFO - Ricevuto ACK 4
+2025-05-24 07:57:22,321 - INFO - Finestra aggiornata: base = 5, next_id_pack = 7
+2025-05-24 07:57:22,336 - INFO - Invio Pacchetto 7
+2025-05-24 07:57:23,323 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:57:24,324 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:57:24,331 - INFO - Timeout raggiunto! Ritrasmetto da 5 a 7
+2025-05-24 07:57:24,331 - INFO - Invio Pacchetto 5
+2025-05-24 07:57:24,334 - INFO - Invio Pacchetto 6
+2025-05-24 07:57:24,336 - INFO - Invio Pacchetto 7
+2025-05-24 07:57:25,326 - WARNING - ACK duplicato o obsoleto ignorato: 4
+2025-05-24 07:57:26,327 - INFO - Ricevuto ACK 5
+2025-05-24 07:57:26,328 - INFO - Finestra aggiornata: base = 6, next_id_pack = 8
+2025-05-24 07:57:26,344 - INFO - Invio Pacchetto 8
+2025-05-24 07:57:27,329 - INFO - Ricevuto ACK 6
+2025-05-24 07:57:27,329 - INFO - Finestra aggiornata: base = 7, next_id_pack = 9
+2025-05-24 07:57:27,349 - INFO - Invio Pacchetto 9
+2025-05-24 07:57:28,331 - INFO - Ricevuto ACK 7
+2025-05-24 07:57:28,331 - INFO - Finestra aggiornata: base = 8, next_id_pack = 10
+2025-05-24 07:57:28,355 - INFO - Invio Pacchetto 10
+2025-05-24 07:57:29,333 - WARNING - ACK duplicato o obsoleto ignorato: 7
+2025-05-24 07:57:30,333 - WARNING - ACK duplicato o obsoleto ignorato: 7
+2025-05-24 07:57:30,346 - INFO - Timeout raggiunto! Ritrasmetto da 8 a 10
+2025-05-24 07:57:30,347 - INFO - Invio Pacchetto 8
+2025-05-24 07:57:30,349 - INFO - Invio Pacchetto 9
+2025-05-24 07:57:30,351 - INFO - Invio Pacchetto 10
+2025-05-24 07:57:31,335 - WARNING - ACK duplicato o obsoleto ignorato: 7
+2025-05-24 07:57:32,336 - INFO - Ricevuto ACK 8
+2025-05-24 07:57:32,337 - INFO - Finestra aggiornata: base = 9, next_id_pack = 11
+2025-05-24 07:57:32,363 - INFO - Invio Pacchetto 11
+2025-05-24 07:57:33,338 - INFO - Ricevuto ACK 9
+2025-05-24 07:57:33,338 - INFO - Finestra aggiornata: base = 10, next_id_pack = 12
+2025-05-24 07:57:33,368 - INFO - Invio Pacchetto 12
+2025-05-24 07:57:34,339 - INFO - Ricevuto ACK 10
+2025-05-24 07:57:34,340 - INFO - Finestra aggiornata: base = 11, next_id_pack = 13
+2025-05-24 07:57:34,372 - INFO - Invio Pacchetto 13
+2025-05-24 07:57:35,341 - WARNING - ACK duplicato o obsoleto ignorato: 10
+2025-05-24 07:57:36,342 - WARNING - ACK duplicato o obsoleto ignorato: 10
+2025-05-24 07:57:36,360 - INFO - Timeout raggiunto! Ritrasmetto da 11 a 13
+2025-05-24 07:57:36,360 - INFO - Invio Pacchetto 11
+2025-05-24 07:57:36,363 - INFO - Invio Pacchetto 12
+2025-05-24 07:57:36,365 - INFO - Invio Pacchetto 13
+2025-05-24 07:57:37,344 - WARNING - ACK duplicato o obsoleto ignorato: 10
+2025-05-24 07:57:38,345 - INFO - Ricevuto ACK 11
+2025-05-24 07:57:38,346 - INFO - Finestra aggiornata: base = 12, next_id_pack = 14
+2025-05-24 07:57:38,380 - INFO - Invio Pacchetto 14
+2025-05-24 07:57:39,347 - INFO - Ricevuto ACK 12
+2025-05-24 07:57:39,347 - INFO - Finestra aggiornata: base = 13, next_id_pack = 15
+2025-05-24 07:57:39,385 - INFO - Invio Pacchetto 15
+2025-05-24 07:57:40,347 - INFO - Ricevuto ACK 13
+2025-05-24 07:57:40,348 - INFO - Finestra aggiornata: base = 14, next_id_pack = 16
+2025-05-24 07:57:40,389 - INFO - Invio Pacchetto 16
+2025-05-24 07:57:41,348 - WARNING - ACK duplicato o obsoleto ignorato: 13
+2025-05-24 07:57:42,349 - WARNING - ACK duplicato o obsoleto ignorato: 13
+2025-05-24 07:57:42,374 - INFO - Timeout raggiunto! Ritrasmetto da 14 a 16
+2025-05-24 07:57:42,375 - INFO - Invio Pacchetto 14
+2025-05-24 07:57:42,378 - INFO - Invio Pacchetto 15
+2025-05-24 07:57:42,379 - INFO - Invio Pacchetto 16
+2025-05-24 07:57:43,351 - WARNING - ACK duplicato o obsoleto ignorato: 13
+2025-05-24 07:57:44,353 - INFO - Ricevuto ACK 14
+2025-05-24 07:57:44,353 - INFO - Finestra aggiornata: base = 15, next_id_pack = 17
+2025-05-24 07:57:44,393 - INFO - Invio Pacchetto 17
+2025-05-24 07:57:45,355 - INFO - Ricevuto ACK 15
+2025-05-24 07:57:45,355 - INFO - Finestra aggiornata: base = 16, next_id_pack = 18
+2025-05-24 07:57:45,397 - INFO - Invio Pacchetto 18
+2025-05-24 07:57:46,356 - INFO - Ricevuto ACK 16
+2025-05-24 07:57:46,357 - INFO - Finestra aggiornata: base = 17, next_id_pack = 19
+2025-05-24 07:57:46,402 - INFO - Invio Pacchetto 19
+2025-05-24 07:57:47,358 - WARNING - ACK duplicato o obsoleto ignorato: 16
+2025-05-24 07:57:48,359 - WARNING - ACK duplicato o obsoleto ignorato: 16
+2025-05-24 07:57:48,388 - INFO - Timeout raggiunto! Ritrasmetto da 17 a 19
+2025-05-24 07:57:48,389 - INFO - Invio Pacchetto 17
+2025-05-24 07:57:48,391 - INFO - Invio Pacchetto 18
+2025-05-24 07:57:48,393 - INFO - Invio Pacchetto 19
+2025-05-24 07:57:49,360 - WARNING - ACK duplicato o obsoleto ignorato: 16
+2025-05-24 07:57:50,361 - INFO - Ricevuto ACK 17
+2025-05-24 07:57:50,361 - INFO - Finestra aggiornata: base = 18, next_id_pack = 20
+2025-05-24 07:57:50,411 - INFO - Invio Pacchetto 20
+2025-05-24 07:57:51,362 - INFO - Ricevuto ACK 18
+2025-05-24 07:57:51,363 - INFO - Finestra aggiornata: base = 19, next_id_pack = 21
+2025-05-24 07:57:51,416 - INFO - Invio Pacchetto 21
+2025-05-24 07:57:52,364 - INFO - Ricevuto ACK 19
+2025-05-24 07:57:52,365 - INFO - Finestra aggiornata: base = 20, next_id_pack = 22
+2025-05-24 07:57:52,421 - INFO - Invio Pacchetto 22
+2025-05-24 07:57:53,365 - WARNING - ACK duplicato o obsoleto ignorato: 19
+2025-05-24 07:57:54,367 - WARNING - ACK duplicato o obsoleto ignorato: 19
+2025-05-24 07:57:54,405 - INFO - Timeout raggiunto! Ritrasmetto da 20 a 22
+2025-05-24 07:57:54,406 - INFO - Invio Pacchetto 20
+2025-05-24 07:57:54,408 - INFO - Invio Pacchetto 21
+2025-05-24 07:57:54,410 - INFO - Invio Pacchetto 22
+2025-05-24 07:57:55,368 - WARNING - ACK duplicato o obsoleto ignorato: 19
+2025-05-24 07:57:56,369 - INFO - Ricevuto ACK 20
+2025-05-24 07:57:56,370 - INFO - Finestra aggiornata: base = 21, next_id_pack = 23
+2025-05-24 07:57:56,430 - INFO - Invio Pacchetto 23
+2025-05-24 07:57:57,371 - INFO - Ricevuto ACK 21
+2025-05-24 07:57:57,372 - INFO - Finestra aggiornata: base = 22, next_id_pack = 24
+2025-05-24 07:57:57,435 - INFO - Invio Pacchetto 24
+2025-05-24 07:57:58,373 - INFO - Ricevuto ACK 22
+2025-05-24 07:57:58,373 - INFO - Finestra aggiornata: base = 23, next_id_pack = 25
+2025-05-24 07:57:58,439 - INFO - Invio Pacchetto 25
+2025-05-24 07:57:59,375 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:58:00,376 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:58:00,420 - INFO - Timeout raggiunto! Ritrasmetto da 23 a 25
+2025-05-24 07:58:00,421 - INFO - Invio Pacchetto 23
+2025-05-24 07:58:00,423 - INFO - Invio Pacchetto 24
+2025-05-24 07:58:00,425 - INFO - Invio Pacchetto 25
+2025-05-24 07:58:01,376 - WARNING - ACK duplicato o obsoleto ignorato: 22
+2025-05-24 07:58:02,378 - INFO - Ricevuto ACK 23
+2025-05-24 07:58:02,378 - INFO - Finestra aggiornata: base = 24, next_id_pack = 26
+2025-05-24 07:58:02,448 - INFO - Invio Pacchetto 26
+2025-05-24 07:58:03,380 - INFO - Ricevuto ACK 24
+2025-05-24 07:58:03,380 - INFO - Finestra aggiornata: base = 25, next_id_pack = 27
+2025-05-24 07:58:03,452 - INFO - Invio Pacchetto 27
+2025-05-24 07:58:04,381 - INFO - Ricevuto ACK 25
+2025-05-24 07:58:04,382 - INFO - Finestra aggiornata: base = 26, next_id_pack = 28
+2025-05-24 07:58:04,456 - INFO - Invio Pacchetto 28
+2025-05-24 07:58:05,383 - WARNING - ACK duplicato o obsoleto ignorato: 25
+2025-05-24 07:58:06,385 - WARNING - ACK duplicato o obsoleto ignorato: 25
+2025-05-24 07:58:06,435 - INFO - Timeout raggiunto! Ritrasmetto da 26 a 28
+2025-05-24 07:58:06,436 - INFO - Invio Pacchetto 26
+2025-05-24 07:58:06,438 - INFO - Invio Pacchetto 27
+2025-05-24 07:58:06,441 - INFO - Invio Pacchetto 28
+2025-05-24 07:58:07,387 - WARNING - ACK duplicato o obsoleto ignorato: 25
+2025-05-24 07:58:08,388 - INFO - Ricevuto ACK 26
+2025-05-24 07:58:08,389 - INFO - Finestra aggiornata: base = 27, next_id_pack = 29
+2025-05-24 07:58:08,464 - INFO - Invio Pacchetto 29
+2025-05-24 07:58:09,390 - INFO - Ricevuto ACK 27
+2025-05-24 07:58:09,390 - INFO - Finestra aggiornata: base = 28, next_id_pack = 30
+2025-05-24 07:58:10,391 - INFO - Ricevuto ACK 28
+2025-05-24 07:58:10,391 - INFO - Finestra aggiornata: base = 29, next_id_pack = 30
+2025-05-24 07:58:11,392 - WARNING - ACK duplicato o obsoleto ignorato: 28
+2025-05-24 07:58:12,395 - WARNING - ACK duplicato o obsoleto ignorato: 28
+2025-05-24 07:58:12,450 - INFO - Timeout raggiunto! Ritrasmetto da 29 a 29
+2025-05-24 07:58:12,451 - INFO - Invio Pacchetto 29
+2025-05-24 07:58:13,396 - WARNING - ACK duplicato o obsoleto ignorato: 28
+2025-05-24 07:58:14,399 - INFO - Ricevuto ACK 29
+2025-05-24 07:58:14,399 - INFO - Finestra aggiornata: base = 30, next_id_pack = 30
+2025-05-24 07:58:15,478 - INFO - Chiusura del socket
+2025-05-24 07:58:15,479 - INFO - Statistiche finali:
+2025-05-24 07:58:15,480 - INFO - inviati: 58
+2025-05-24 07:58:15,480 - INFO - persi: 0
+2025-05-24 07:58:15,480 - INFO - ritrasmessi: 28
+2025-05-24 07:58:15,480 - INFO - ack_ricevuti: 57
